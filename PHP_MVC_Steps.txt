@@ -1,0 +1,1337 @@
+C:\xampp\apache\conf\extra\httpd-vhosts.conf
+
+setting local server
+
+NameVirtualHost thuan.com
+<VirtualHost 127.0.0.1:80>
+    ServerAdmin thuan.com@yourdomain.com
+    DocumentRoot "C:\xampp\htdocs\practicalPHP"
+    ServerName  thuan.com
+    ErrorLog logs/thuan.com.vn-error.log
+    CustomLog logs/thuan.com.vn-access.log common
+</VirtualHost>
+
+<Directory "C:\xampp\htdocs\practicalPHP">
+ AllowOverride all
+ Order Deny,Allow
+ Allow from all
+ Require all granted
+</Directory>
+
+
+1. Download source
+
+2. 
+C:\xampp\apache\conf\extra\httpd-vhosts.conf
+C:\Windows\System32\drivers\etc\hosts
+
+3.
+composer require vlucas/phpdotenv
+
+4.
+.env
+
+APP_URL=http://acmestore.dev
+APP_ENV=local
+APP_NAME="ACME E-commerce Store"
+
+#database
+DB_DRIVER='mysql'
+DB_HOST=localhost
+DB_NAME=store
+DB_USERNAME=store
+DB_PASSWORD=secret
+
+5. 
+C:\xampp\htdocs\ecommerce\app\config\_env.php
+
+<?php
+
+define('BASE_PATH', realpath(__DIR__.'/../../'));
+
+require_once __DIR__.'/../../vendor/autoload.php';
+
+$dotEnv = Dotenv\Dotenv::createMutable(BASE_PATH);
+
+$dotEnv->load();
+
+6.
+C:\xampp\htdocs\ecommerce\public\index.php
+<?php
+
+require_once __DIR__ . '/../bootstrap/init.php';
+
+$app_name = getenv('APP_NAME');
+echo $app_name;
+
+7.
+C:\xampp\htdocs\ecommerce\bootstrap\init.php
+
+8.
+Install Node JS version 6
+NodeJS v6.10.3
+https://nodejs.org/download/release/v6.10.3/
+node-v6.10.3-x64.msi  
+Git bash:
+node -v
+npm -v
+
+9.
+Create
+C:\xampp\htdocs\ecommerce\package.json
+{
+  "author": "Terry Osayawe",
+  "description": "ACME Ecommerce webstore",
+
+  "private": true,
+
+  "dependencies": {
+    "gulp":"~3.9",
+    "laravel-elixir":"~5.0.0"
+  }
+}
+
+and
+npm install
+npm install gulp bower
+bower install foundation-sites#6.3.1 --save
+(Foundation - Front end dependencies)
+
+10.
+C:\WORK\Udemy PHP MVC ecommerce\source-code-2\ecommerce\.bowerrc
+
+{
+  "directory":"resources/assets/bower/vendor"
+}
+
+then create
+
+C:\WORK\Udemy PHP MVC ecommerce\source-code-2\ecommerce\resources\assets\bower\vendor
+
+And create 
+C:\WORK\Udemy PHP MVC ecommerce\source-code-2\ecommerce\bower.json
+{
+  "name": "acme-store",
+  "dependencies": {
+    "foundation-sites": "^6.3.1",
+    "jquery": "~2.2",
+    "motion-ui": "^1.2.2",
+    "slick-carousel": "^1.6.0"
+  }
+}
+
+Git bash:
+bower install motion-ui --save
+bower install --save slick-carousel
+=> Front end part dependencies
+
+11.
+create
+C:\xampp\htdocs\ecommerce\gulpfile.js
+
+var elixir = require('laravel-elixir');
+elixir.config.sourcemaps = false;
+
+var gulp = require('gulp');
+
+elixir(function (mix) {
+       //compile sass to css
+    mix.sass('resources/assets/sass/app.scss', 'resources/assets/css');
+
+    //combine css file
+    mix.styles(
+        [
+           'css/app.css',
+            'bower/vendor/slick-carousel/slick/slick.css'
+
+        ], 'public/css/all.css', //output file
+        'resources/assets');
+
+    var bowerPath = 'bower/vendor';
+    mix.scripts(
+        [
+            //Jquery
+            bowerPath + '/jquery/dist/jquery.min.js',
+            //foundation js
+            bowerPath + '/foundation-sites/dist/js/foundation.min.js',
+            //other dependencies
+            bowerPath + '/slick-carousel/slick/slick.min.js',
+
+            'js/*.js'
+
+        ], 'public/js/all.js', 'resources/assets');
+});
+
+then create
+C:\xampp\htdocs\ecommerce\resources\assets\sass\app.scss
+
+//font
+@import url(https://fonts.googleapis.com/css?family=Railway:300,400,600);
+
+@import "../bower/vendor/foundation-sites/assets/foundation";
+
+@import "admin/nav";
+
+@import "../bower/vendor/motion-ui/src/motion-ui";
+@include motion-ui-transitions
+@include motion-ui-animations
+
+then Git bash
+gulp
+gulp watch
+
+12.
+composer require altorouter/altorouter
+
+13.
+create
+C:\xampp\htdocs\ecommerce\public\.htaccess
+
+#turn on rewrite engine
+RewriteEngine on
+
+#IF REQUESTED FILE IS NOT A REAL FILE
+RewriteCond %{REQUEST_FILENAME} !-f
+
+#Redirect all rquest to index.php
+RewriteRule . index.php [L]
+
+(index.php
+var_dump(in_array('mod_rewrite', apache_get_modules()));
+)
+
+14.
+create
+C:\xampp\htdocs\ecommerce\app\routing\routes.php
+
+<?php
+$router = new AltoRouter;
+$router->map('GET', '/', 'App\Controllers\IndexController@show', 'home');
+
+//for admin routes
+$router->map('GET', '/admin', 'App\Controllers\Admin\DashboardController@show', 'admin_dashboard');
+
+15.
+create
+C:\xampp\htdocs\ecommerce\app\controllers\BaseController.php
+
+<?php
+
+namespace App\Controllers;
+
+
+class BaseController
+{
+    
+}
+
+then create
+
+C:\xampp\htdocs\ecommerce\app\controllers\IndexController.php
+
+<?php
+
+namespace App\Controllers;
+use App\Classes\Mail;
+
+class IndexController extends BaseController
+{
+    public function show()
+    {
+        echo "Inside Homepage from controller class";
+        $mail = new Mail();
+        
+        $data = [
+            'to' => 'support@devscreencast.com',
+            'subject' => 'Welcome to Acme Store',
+            'view' => 'welcome',
+            'name' => 'John Doe',
+            'body' => "Testing email template"
+        ];
+        
+        if($mail->send($data)){
+            echo "Email sent successfully";
+        }else{
+            echo "Email sending failed";
+        }
+    }
+}
+
+16.
+composer require philo/laravel-blade
+
+17.
+create
+C:\xampp\htdocs\ecommerce\app\functions\helper.php
+
+<?php
+use Philo\Blade\Blade;
+
+function view($path, array $data = [])
+{
+    $view = __DIR__ . '/../../resources/views';
+    $cache = __DIR__ . '/../../bootstrap/cache';
+    
+    $blade = new Blade($view, $cache);
+    echo $blade->view()->make($path, $data)->render();
+}
+
+function make($filename, $data)
+{
+    extract($data);
+    //turn on output buffering
+    ob_start();
+    //include template
+    include(__DIR__ . '/../../resources/views/emails/' . $filename . '.php');
+    //get content of the file
+    $content = ob_get_contents();
+    
+    // erase the output and turn off output buffering
+    ob_end_clean();
+    
+    return $content;
+}
+
+18. 
+create
+C:\xampp\htdocs\ecommerce\app\routing\RouteDispatcher.php
+
+<?php
+namespace App;
+
+use AltoRouter;
+class RouteDispatcher
+{
+    protected $match;
+    protected $controller;
+    protected $method;
+    
+    public function __construct(AltoRouter $router)
+    {
+        $this->match = $router->match();
+        
+        if($this->match){
+            list($controller, $method) = explode('@', $this->match['target']);
+            $this->controller = $controller;
+            $this->method = $method;
+            
+            if(is_callable(array(new $this->controller, $this->method))){
+                call_user_func_array(array(new $this->controller, $this->method),
+                    array($this->match['params']));
+            }else{
+                echo "The method {$this->method} is not defined in {$this->controller}";
+            }
+        }else{
+            header($_SERVER['SERVER_PROTOCOL'].'404 Not Found');
+            view('errors/404');
+        }
+    }
+}
+
+19.
+composer dumpautoload
+
+20.
+create
+C:\xampp\htdocs\ecommerce\resources\views\errors\404.blade.php
+
+<h1>
+    Page not found
+</h1>
+
+21.
+set up eloquent ORM:
+composer require illuminate/database:5.4.* 
+
+22.
+C:\xampp\htdocs\ecommerce\app\classes\Database.php
+
+<?php
+namespace App\Classes;
+use Illuminate\Database\Capsule\Manager as Capsule;
+
+class Database
+{
+    public function __construct()
+    {
+        $db = new Capsule;
+        $db->addConnection([
+           'driver' => getenv('DB_DRIVER'),
+            'host' => getenv('HOST'),
+            'database' => getenv('DB_NAME'),
+            'username' => getenv('DB_USERNAME'),
+            'password' => getenv('DB_PASSWORD'),
+            'charset' => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix' => ''
+        ]);
+        
+        $db->setAsGlobal();
+        $db->bootEloquent();
+    }
+}
+
+then edit index.php:
+
+<?php
+
+require_once __DIR__ . '/../bootstrap/init.php';
+
+$app_name = getenv('APP_NAME');
+// echo $app_name;
+
+// var_dump(in_array('mod_rewrite', apache_get_modules()));
+
+use Illuminate\Database\Capsule\Manager as Capsule;
+$user = Capsule::table('categories')->get();
+
+var_dump($user->toArray());
+
+23.
+composer require phpmailer/phpmailer
+
+then create
+C:\xampp\htdocs\ecommerce\app\classes\Mail.php
+
+<?php
+namespace App\Classes;
+use PHPMailer;
+
+class Mail
+{
+    protected $mail;
+    
+    public function __construct()
+    {
+        $this->mail = new PHPMailer;
+        $this->setUp();
+    }
+    
+    public function setUp()
+    {
+        $this->mail->isSMTP();
+        $this->mail->Mailer = 'smtp';
+        $this->mail->SMTPAuth = true;
+        $this->mail->SMTPSecure = 'tls';
+        
+        $this->mail->Host = getenv('SMTP_HOST');
+        $this->mail->Port = getenv('SMTP_PORT');
+        
+        $environment = getenv('APP_ENV');
+        if($environment === 'local'){$this->mail->SMTPDebug = '';}
+        
+        //auth info
+        $this->mail->Username = getenv('EMAIL_USERNAME');
+        $this->mail->Password = getenv('EMAIL_PASSWORD');
+        
+        $this->mail->isHTML(true);
+        $this->mail->SingleTo = true;
+        
+        //sender info
+        $this->mail->From = getenv('ADMIN_EMAIL');
+        $this->mail->FromName = getenv('ACME Store');
+    }
+    
+    public function send($data)
+    {
+        $this->mail->addAddress($data['to'], $data['name']);
+        $this->mail->Subject = $data['subject'];
+        $this->mail->Body = make($data['view'], array('data' => $data['body']));
+        return $this->mail->send();
+    }
+    
+}
+
+also check .env:
+
+APP_URL=http://acmestore.dev
+APP_ENV=local
+APP_NAME="ACME E-commerce Store"
+
+#database
+DB_DRIVER='mysql'
+DB_HOST=localhost
+DB_NAME=store
+DB_USERNAME=store
+DB_PASSWORD=secret
+
+#Mail Credentials
+EMAIL_USERNAME=your_gmail_address.com
+EMAIL_PASSWORD=your_gmail_password
+SMTP_PORT=587
+SMTP_HOST=smtp.gmail.com
+ADMIN_EMAIL=support@email.com
+
+then create:
+C:\xampp\htdocs\ecommerce\resources\views\emails\welcome.php
+
+then update helper.php:
+C:\xampp\htdocs\ecommerce\app\functions\helper.php
+
+<?php
+use Philo\Blade\Blade;
+
+function view($path, array $data = [])
+{
+    $view = __DIR__ . '/../../resources/views';
+    $cache = __DIR__ . '/../../bootstrap/cache';
+    
+    $blade = new Blade($view, $cache);
+    echo $blade->view()->make($path, $data)->render();
+}
+
+function make($filename, $data)
+{
+    extract($data);
+    //turn on output buffering
+    ob_start();
+    //include template
+    include(__DIR__ . '/../../resources/views/emails/' . $filename . '.php');
+    //get content of the file
+    $content = ob_get_contents();
+    
+    // erase the output and turn off output buffering
+    ob_end_clean();
+    
+    return $content;
+}
+
+***Warning:
+Upgrade:
+use PHPMailer\PHPMailer\PHPMailer;
+
+24. Test Mailbox
+https://mailtrap.io/
+copy host, port, username, password => run
+
+25. Error Handler : Whoops
+composer require filp/whoops
+
+   "require-dev":{
+        "filp/whoops": "^2.1"
+    },
+	
+26.
+create C:\xampp\htdocs\ecommerce\app\classes\ErrorHandler.php
+
+<?php
+namespace App\Classes;
+
+
+class ErrorHandler
+{
+    public function handleErrors($error_number, $error_message, $error_file, $error_line)
+    {
+        $error = "[{$error_number}] An error occurred in file
+                    {$error_file} on line $error_line: $error_message";
+        
+        $environment = getenv('APP_ENV');
+        
+        if($environment === 'local'){
+            $whoops = new \Whoops\Run;
+            $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
+            $whoops->register();
+        }else{
+            $data = [
+                'to' => getenv('ADMIN_EMAIL'),
+                'subject' => 'System Error',
+                'view' => 'errors',
+                'name' => 'Admin',
+                'body' => $error
+            ];
+            ErrorHandler::emailAdmin($data)->outputFriendlyError();
+        }
+    }
+    public function outputFriendlyError()
+    {
+        ob_end_clean();
+        view('errors/generic');
+        exit;
+    }
+    public static function emailAdmin($data)
+    {
+        $mail = new Mail;
+        $mail->send($data);
+        return new static;
+    }
+}
+
+
+then create
+C:\xampp\htdocs\ecommerce\resources\views\errors\generic.blade.php
+
+
+<div style="padding: 15px; width: 80%; margin: 0 auto; border: 1px solid darkgray; border-radius: 5px;">
+    <h1>A system error occurred, please try again later.</h1>
+</div>
+
+then create
+C:\xampp\htdocs\ecommerce\resources\views\emails\errors.php
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div style="width: 600px; padding: 15px; margin: 0 auto; background-color: #0a0a0a; color: #ffffff;">
+    <img src="https://www.dstech.net/images/easyblog_shared/November_2018/11-12-18/human_error_stop_400.png" width="150" height="187" />
+     <?php echo "Error: {$data}" ?>
+    <p>
+        Regards <br /> <br />
+        <strong>Devscreencast Team</strong>
+    </p>
+</div>
+</body>
+</html>
+
+(*)NOTES: When using ErrorHandler like whoops, pay attention to the order of the code lines )ErrorHandler must appear before others (ex: routes.php)
+
+25. Admin View
+create
+C:\xampp\htdocs\ecommerce\resources\views\admin\layout\base.blade.php
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Admin Panel - @yield('title')</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/css/all.css" >
+    <script src="https://use.fontawesome.com/1504552d47.js"></script>
+</head>
+<body>
+
+    @include('includes.admin-sidebar')
+
+<div class="off-canvas-content admin_title_bar" data-off-canvas-content>
+    <!-- Your page content lives here -->
+    <div class="title-bar">
+        <div class="title-bar-left">
+            <button class="menu-icon hide-for-large" type="button" data-open="offCanvas"></button>
+            <span class="title-bar-title">{{ getenv('APP_NAME') }}</span>
+        </div>
+    </div>
+    
+    @yield('content')
+</div>
+
+<script async src="/js/all.js"></script>
+</body>
+</html>
+
+then create
+C:\xampp\htdocs\ecommerce\resources\views\admin\dashboard.blade.php
+
+@extends('admin.layout.base')
+@section('title', 'Dashboard')
+
+@section('content')
+    <div class="dashboard">
+        <div class="row expanded">
+            <h2>Dashboard</h2>
+            {{ $admin }}
+        </div>
+    </div>
+@endsection
+
+then edit routes.php:
+
+//for admin routes
+$router->map('GET', '/admin', 'App\Controllers\Admin\DashboardController@show', 'admin_dashboard');
+
+
+then create:
+C:\xampp\htdocs\ecommerce\app\controllers\admin\DashboardController.php
+
+<?php
+namespace App\Controllers\Admin;
+
+use App\Classes\Session;
+use App\Controllers\BaseController;
+
+class DashboardController extends BaseController
+{
+    
+    public function show()
+    {
+        Session::add('admin', 'You are welcome, admin user');
+        Session::remove('admin');
+        
+        if(Session::has('admin')){
+            $msg = Session::get('admin');
+        }else{
+            $msg = 'Not defined';
+        }
+        return view('admin/dashboard', ['admin' => $msg]);
+    }
+}
+
+26.
+create C:\xampp\htdocs\ecommerce\resources\assets\js\init.js
+
+
+(function () {
+    'use strict';
+
+    $(document).foundation();
+
+})();
+
+
+gulp
+
+(*) NOTES: WARNING: 
+1) init.php:
+new \App\Routing\RouteDispatcher($router);
+2) .htaccess & index.php:
+Move to C:\xampp\htdocs (not C:\xampp\htdocs\ecommerce\public)
+
+27.
+gulp
+gulp watch
+then create
+C:\WORK\Udemy PHP MVC ecommerce\source-code-2\ecommerce\resources\views\includes\admin-sidebar.blade.php
+
+<!-- Side bar -->
+<div class="off-canvas position-left reveal-for-large nav" id="offCanvas" data-off-canvas>
+    
+    <h3> Welcome Admin </h3>
+    
+    <div class="image-holder text-center">
+        <img src="/images/terry.jpg" alt="Terry" title="Admin">
+        <p>Terry O.</p>
+    </div>
+    
+    <ul class="vertical menu">
+        <li><a href="/admin"><i class="fa fa-tachometer fa-fw" aria-hidden="true"></i>&nbsp; Dashboard</a></li>
+        <li><a href="/admin/users"><i class="fa fa-users fa-fw" aria-hidden="true"></i>&nbsp; Users</a></li>
+        <li><a href="/admin/product/create"><i class="fa fa-plus fa-fw" aria-hidden="true"></i>&nbsp; Add Product</a></li>
+        <li><a href="manage_inventory"><i class="fa fa-edit fa-fw" aria-hidden="true"></i>&nbsp; Manage Products</a></li>
+        <li><a href="/admin/product/categories"><i class="fa fa-compress" aria-hidden="true"></i>&nbsp;Categories</a></li>
+        <li><a href="/admin/users/orders"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;View Orders</a></li>
+        <li><a href="/admin/users/payments"><i class="fa fa-money fa-fw" aria-hidden="true"></i>&nbsp; Payments</a></li>
+        <li><a href="/admin/logout"><i class="fa fa-sign-out fa-fw" aria-hidden="true"></i>&nbsp; Logout</a></li>
+    </ul>
+   
+</div>
+<!-- end Side bar -->
+
+then edit
+C:\xampp\htdocs\ecommerce\gulpfile.js
+
+'js/*.js'
+
+28.
+create
+C:\xampp\htdocs\ecommerce\resources\assets\sass\admin\_nav.scss
+
+.nav{
+  background-color: #2A3F54;
+
+  .menu > li > a{
+    color: #ffffff;
+    font-size: 1.2rem;
+
+    &:hover, &:focus, &:active{
+      background-color: darken(#2A3F54, 8%);
+    }
+  }
+
+  h3{
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .image-holder{
+    padding: 0.7rem;
+    background-color: #E93F49;
+
+    img{
+      border-radius: 50%;
+      border: 1px solid darken(#E93F49, 15%);
+      padding: 0.3rem;
+      height: 200px; width: 200px;
+    }
+
+    p{
+      color: #ffffff;
+      font-size: 1rem;
+    }
+  }
+}
+
+.admin_title_bar{
+  .title-bar{
+    background-color: #EDEDED;
+
+    .title-bar-title{
+      font-size: 1.5rem;
+      color: #0a0a0a;
+    }
+  }
+}
+
+
+(?) 
+chưa biết cách dùng foudation-sites hay các loại front end dependencies khác để áp dụng styles
+
+29.
+create
+C:\xampp\htdocs\ecommerce\app\classes\Session.php
+
+<?php
+
+namespace App\Classes;
+
+class Session
+{
+    /**
+     * create a session
+     *
+     * @param $name
+     * @param $value
+     * @return mixed
+     * @throws \Exception
+     */
+    public static function add($name, $value)
+    {
+        if($name != '' && !empty($name) && $value != '' && !empty($value)){
+            return $_SESSION[$name] = $value;
+        }
+        
+        throw new \Exception('Name and value required');
+    }
+    
+    /**
+     * get value from session
+     *
+     * @param $name
+     * @return mixed
+     */
+    public static function get($name)
+    {
+        return $_SESSION[$name];
+    }
+    
+    /**
+     * check is session exists
+     *
+     * @param $name
+     * @return bool
+     * @throws \Exception
+     */
+    public static function has($name)
+    {
+        if($name != '' && !empty($name)){
+            return (isset($_SESSION[$name])) ? true : false;
+        }
+        
+        throw new \Exception('name is required');
+    }
+    
+    /**
+     * remove session
+     *
+     * @param $name
+     */
+    public static function remove($name)
+    {
+        if(self::has($name)){
+            unset($_SESSION[$name]);
+        }
+    }
+}
+
+30.
+
+(?) chưa chắc có nên dùng ko
+npm install yarn
+
+31.
+create
+C:\xampp\htdocs\ecommerce\app\classes\CSRFToken.php
+
+<?php
+
+
+namespace App\Classes;
+
+
+class CSRFToken
+{
+    /**
+     * Generate Token
+     * @return mixed
+     */
+    public static function _token()
+    {
+        if(!Session::has('token')){
+            $randomToken = base64_encode(openssl_random_pseudo_bytes(32));
+            Session::add('token', $randomToken);
+        }
+        return Session::get('token');
+    }
+    
+    /**
+     * Verify CSRF TOKEN
+     * @param $requestToken
+     * @return bool
+     */
+    public static function verifyCSRFToken($requestToken)
+    {
+        if(Session::has('token') && Session::get('token') === $requestToken){
+            Session::remove('token');
+            return true;
+        }
+        return false;
+    }
+}
+
+then edit
+C:\xampp\htdocs\ecommerce\resources\views\admin\dashboard.blade.php
+
+@extends('admin.layout.base')
+@section('title', 'Dashboard')
+
+@section('content')
+    <div class="dashboard">
+        <div class="row expanded">
+            <h2>Dashboard</h2>
+            {!! \App\Classes\CSRFToken::_token() !!}
+            <br />
+            {!! \App\Classes\Session::get('token') !!}
+        </div>
+    </div>
+@endsection
+
+
+32.
+create
+C:\xampp\htdocs\ecommerce\app\classes\Redirect.php
+
+<?php
+namespace App\Classes;
+
+class Redirect
+{
+    /**
+     * Redirect to specific page
+     * @param $page
+     */
+    public static function to($page)
+    {
+        header("location: $page");
+    }
+    
+    /**
+     * Redirect to same page
+     */
+    public static function back()
+    {
+        $uri = $_SERVER['REQUEST_URI'];
+        header("location: $uri");
+    }
+}
+
+then test by editing 
+C:\xampp\htdocs\ecommerce\resources\views\admin\dashboard.blade.php
+
+            {{ \App\Classes\Redirect::to}}
+            {{$_SERVER['REQUEST_URI']}}
+			
+33. UpLoadFile Class
+create
+C:\xampp\htdocs\ecommerce\app\classes\UploadFile.php
+
+<?php
+namespace App\Classes;
+
+class UploadFile
+{
+    protected $filename;
+    protected $max_filesize = 2097152;
+    protected $extension;
+    protected $path;
+    
+    /**
+     * Get the file name
+     * @return mixed
+     */
+    public function getName()
+    {
+        return $this->filename;
+    }
+    
+    /**
+     * Set the name of the file
+     * @param $file
+     * @param string $name
+     */
+    protected function setName($file, $name = "")
+    {
+        if($name === "")
+        {
+            $name = pathinfo($file, PATHINFO_FILENAME);
+        }
+        $name = strtolower(str_replace(['-', ' '], '-', $name));
+        $hash = md5(microtime());
+        $ext = $this->fileExtension($file);
+        $this->filename = "{$name}-{$hash}.{$ext}";
+    }
+    
+    /**
+     * set file extension
+     * @param $file
+     * @return mixed
+     */
+    protected function fileExtension($file)
+    {
+        return $this->extension = pathinfo($file, PATHINFO_EXTENSION);
+    }
+    
+    /**
+     * Validate file Size
+     * @param $file
+     * @return bool
+     */
+    public static function fileSize($file)
+    {
+        $fileobj = new static;
+        return $file > $fileobj->max_filesize ? true : false;
+    }
+    
+    /**
+     * Validate file upload
+     * @param $file
+     * @return bool
+     */
+    public static function isImage($file)
+    {
+        $fileobj = new static;
+        $ext = $fileobj->fileExtension($file);
+        $validExt = array('jpg', 'jpeg', 'png', 'bmp', 'gif');
+        
+        if(!in_array(strtolower($ext), $validExt)){
+            return false;
+        }
+        
+        return true;
+    }
+    
+    /**
+     * Get the path where file was uploaded to
+     * @return mixed
+     */
+    public function path()
+    {
+        return $this->path;
+    }
+    
+    /**
+     * Move the file to intended location
+     *
+     * @param $temp_path
+     * @param $folder
+     * @param $file
+     * @param $new_filename
+     * @return null|static
+     */
+    public static function move($temp_path, $folder, $file, $new_filename = '')
+    {
+        $fileObj = new static;
+        $ds = DIRECTORY_SEPARATOR;
+        
+        $fileObj->setName($file, $new_filename);
+        $file_name = $fileObj->getName();
+        
+        if(!is_dir($folder)){
+            mkdir($folder, 0777, true);
+        }
+        
+        $fileObj->path = "{$folder}{$ds}{$file_name}";
+        $absolute_path = BASE_PATH."{$ds}public{$ds}$fileObj->path";
+        
+        if(move_uploaded_file($temp_path, $absolute_path)){
+            return $fileObj;
+        }
+        
+        return null;
+    }
+}
+
+34. RequestClass
+create
+C:\xampp\htdocs\ecommerce\app\classes\Request.php
+
+<?php
+namespace App\Classes;
+
+class Request
+{
+    /**
+     * return all request that we are interested in
+     * @param bool $is_array
+     * @return mixed
+     */
+    public static function all($is_array = false)
+    {
+        $result = [];
+        if(count($_GET) > 0) $result['get'] = $_GET;
+        if(count($_POST) > 0) $result['post'] = $_POST;
+        $result['file'] = $_FILES;
+        
+        return json_decode(json_encode($result), $is_array);
+    }
+    
+    /**
+     * get specific request type
+     * @param $key
+     * @return mixed
+     */
+    public static function get($key)
+    {
+        $object = new static;
+        $data = $object->all();
+        
+        return $data->$key;
+    }
+    
+    /**
+     * check request availability
+     * @param $key
+     * @return bool
+     */
+    public static function has($key)
+    {
+        return (array_key_exists($key, self::all(true))) ? true : false;
+    }
+    
+    /**
+     * get request data
+     * @param $key
+     * @param $value
+     * @return string
+     */
+    public static function old($key, $value)
+    {
+        $object = new static;
+        $data = $object->all();
+        return isset($data->$key->$value) ? $data->$key->$value : '';
+    }
+    
+    /**
+     * refresh request
+     */
+    public static function refresh()
+    {
+        $_POST = [];
+        $_GET = [];
+        $_FILES = [];
+    }
+}
+
+then edit 
+C:\xampp\htdocs\ecommerce\resources\views\admin\dashboard.blade.php
+
+@extends('admin.layout.base')
+@section('title', 'Dashboard')
+
+@section('content')
+    <div class="dashboard">
+        <div class="row expanded">
+            <h2>Dashboard</h2>
+            <form action="/admin" method="post" enctype="multipart/form-data">
+                <input name="product" value="testing">
+                <input type="file" name="image">
+                <input type="submit" value="Go" name="submit">
+            </form>
+            
+        </div>
+    </div>
+@endsection
+
+
+then edit
+C:\xampp\htdocs\ecommerce\app\routing\routes.php
+
+//for admin routes
+$router->map('GET', '/admin', 'App\Controllers\Admin\DashboardController@show', 'admin_dashboard');
+$router->map('POST', '/admin', 'App\Controllers\Admin\DashboardController@get', 'admin_form');
+
+then edit
+C:\xampp\htdocs\ecommerce\app\controllers\admin\DashboardController.php
+
+<?php
+namespace App\Controllers\Admin;
+
+use App\Classes\Request;
+use App\Classes\Session;
+use App\Controllers\BaseController;
+
+class DashboardController extends BaseController
+{
+    
+    public function show()
+    {
+        Session::add('admin', 'You are welcome, admin user');
+        Session::remove('admin');
+        
+        if(Session::has('admin')){
+            $msg = Session::get('admin');
+        }else{
+            $msg = 'Not defined';
+        }
+        return view('admin/dashboard', ['admin' => $msg]);
+    }
+    
+    public function get()
+    {
+        Request::refresh();
+        $data = Request::old('post', 'product');
+        var_dump($data);
+        /*if(Request::has('post')){
+            $request = Request::get('post');
+            var_dump( $request->product );
+        }else{
+            var_dump('posting doesnt exist');
+        }*/
+    }
+}
+
+35. Product Category
+
+edit 
+C:\xampp\htdocs\ecommerce\app\routing\routes.php
+
+//product management
+$router->map('GET', '/admin/product/categories', 'App\Controllers\Admin\ProductCategoryController@show', 'product_category');
+$router->map('POST', '/admin/product/categories', 'App\Controllers\Admin\DashboardController@store', 'create_product_category');
+
+then create
+C:\xampp\htdocs\ecommerce\app\controllers\admin\ProductController.php
+
+<?php
+
+namespace App\Controllers;
+
+use App\Classes\CSRFToken;
+use App\Classes\Request;
+use App\Models\Product;
+
+class ProductController extends BaseController
+{
+    public function show($id)
+    {
+        $token = CSRFToken::_token();
+        $product = Product::where('id', $id)->first();
+        return view('product', compact('token', 'product'));
+    }
+
+    public function get($id)
+    {
+        $product = Product::where('id', $id)->with(['category', 'subCategory'])->first();
+        if ($product) {
+
+            $similar_products = Product::where('category_id', $product->category_id)
+                ->where('id', '!=', $id)->inRandomOrder()->limit(8)->get();
+
+            echo json_encode([
+                'product' => $product, 'category' => $product->category,
+                'subCategory' => $product->subCategory, 'similarProducts' => $similar_products
+            ]);
+            exit;
+        }
+        header('HTTP/1.1 422 Uprocessable Entity', true, 422);
+        echo 'Product not found';
+        exit;
+    }
+
+    public function showAll()
+    {
+        $token = CSRFToken::_token();
+        return view('products', compact('token'));
+    }
+}
+
+then create
+
+C:\WORK\Udemy PHP MVC ecommerce\complete-source\complete_source\app\controllers\admin\ProductCategoryController.php
+
+then create
+C:\WORK\Udemy PHP MVC ecommerce\complete-source\complete_source\app\models\Category.php
+
+36.
+C:\WORK\Udemy PHP MVC ecommerce\complete-source\complete_source\resources\views\admin\products\categories.blade.php
+
+
+
+(*) PHP_MVC_UpgradeToWebPack.txt
+Upgrade To WebPack
+
+1.
+uninstall nodejs and then install the latest one
+
+2.
+git bash
+rm -rf node_modules/
+ls -la
+
+clear cache:
+npm cache clean --force
+
+npm install
+
+npm audit fix
+
+npm install foundation-sites laravel-mix vue cross-env
+npm update
+
+https://laravel-mix.com/docs/5.0/installation
+COPY npm scrypts
+paste into package.json
+
+create 
+C:\WORK\Udemy PHP MVC ecommerce\complete-source\complete_source\webpack.mix.js
+
+move from gulp in to webpack
+
+edit
+C:\WORK\Udemy PHP MVC ecommerce\complete-source\complete_source\resources\assets\sass\app.scss
+
+create
+C:\WORK\Udemy PHP MVC ecommerce\complete-source\complete_source\resources\assets\js\app.js
+
+git bash
+npm run dev
+
+remove in app.scss:
+@include motion-ui-transitions
+@include motion-ui-animations
+
+git bash
+npm run dev
+npm run watch
+
+edit
+C:\WORK\Udemy PHP MVC ecommerce\complete-source\complete_source\resources\views\home.blade.php
+
+https://get.foundation/sites/docs/xy-grid.html
+
+(*) Deploy on Heroku
+
+https://dashboard.heroku.com/apps
+
+
+
+
+
+
+
+

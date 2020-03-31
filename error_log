@@ -1,0 +1,658 @@
+[08-Nov-2019 17:23:08 UTC] Error checking in buffer: The buffer you checked in was not checked out
+[13-Nov-2019 05:06:01 UTC] Error checking in buffer: The buffer you checked in was not checked out
+[08-Dec-2019 16:55:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[08-Dec-2019 18:32:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[08-Dec-2019 18:50:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[08-Dec-2019 21:16:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[08-Dec-2019 21:42:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[08-Dec-2019 23:40:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 01:09:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 02:31:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 02:45:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 05:01:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 05:09:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 08:28:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 09:12:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 09:30:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 09:35:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 11:02:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 11:06:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 13:32:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 14:06:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 17:28:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 19:56:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 20:02:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 20:07:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 20:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 21:40:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 21:49:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 22:22:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[09-Dec-2019 23:29:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[10-Dec-2019 02:05:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[10-Dec-2019 03:13:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[10-Dec-2019 03:23:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[10-Dec-2019 05:27:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[10-Dec-2019 05:41:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[10-Dec-2019 06:31:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[10-Dec-2019 07:05:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[10-Dec-2019 08:33:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[10-Dec-2019 08:36:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[10-Dec-2019 09:47:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[10-Dec-2019 09:51:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[10-Dec-2019 14:40:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[10-Dec-2019 22:12:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[10-Dec-2019 23:57:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[11-Dec-2019 01:46:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[11-Dec-2019 03:16:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[11-Dec-2019 03:23:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[11-Dec-2019 05:42:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[11-Dec-2019 06:57:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[11-Dec-2019 07:55:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[11-Dec-2019 08:43:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[11-Dec-2019 11:15:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[11-Dec-2019 15:07:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[11-Dec-2019 17:47:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[11-Dec-2019 17:54:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[11-Dec-2019 18:00:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[11-Dec-2019 20:28:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[11-Dec-2019 20:38:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[11-Dec-2019 21:39:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[11-Dec-2019 21:47:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[12-Dec-2019 03:13:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[12-Dec-2019 05:12:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[12-Dec-2019 05:37:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[12-Dec-2019 06:44:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[12-Dec-2019 07:16:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[12-Dec-2019 12:38:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[12-Dec-2019 17:48:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[12-Dec-2019 18:50:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[12-Dec-2019 19:08:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[12-Dec-2019 21:18:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[13-Dec-2019 01:00:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[13-Dec-2019 01:13:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[13-Dec-2019 01:38:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[13-Dec-2019 01:44:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\WooCommerce\Admin\Features\wc_get_screen_ids() in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php:616
+Stack trace:
+#0 /home/seegarde/public_html/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Features\Onboarding->update_help_tab(Object(WP_Screen))
+#1 /home/seegarde/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/seegarde/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/seegarde/public_html/wp-admin/includes/class-wp-screen.php(412): do_action('current_screen', Object(WP_Screen))
+#4 /home/seegarde/public_html/wp-admin/includes/screen.php(241): WP_Screen->set_current_screen()
+#5 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(365): set_current_screen('sync')
+#6 /home/seegarde/public_html/wp-content/plugins/jetpack/vendor/automattic/jetpack-sync/src/class-sender.php(457) in /home/seegarde/public_html/wp-content/plugins/woocommerce-admin/src/Features/Onboarding.php on line 616
+[13-Jan-2020 08:55:37 UTC] PHP Warning:  Error while sending QUERY packet. PID=4850 in /home/seegarde/public_html/wp-includes/wp-db.php on line 2030
+[13-Jan-2020 08:57:01 UTC] PHP Warning:  Error while sending QUERY packet. PID=7976 in /home/seegarde/public_html/wp-includes/wp-db.php on line 2030
+[13-Jan-2020 08:57:01 UTC] PHP Warning:  Error while sending QUERY packet. PID=7972 in /home/seegarde/public_html/wp-includes/wp-db.php on line 2030
+[13-Jan-2020 08:57:29 UTC] PHP Warning:  Error while sending QUERY packet. PID=13075 in /home/seegarde/public_html/wp-includes/wp-db.php on line 2030
+[13-Jan-2020 08:57:29 UTC] PHP Warning:  Error while sending QUERY packet. PID=13074 in /home/seegarde/public_html/wp-includes/wp-db.php on line 2030
+[27-Jan-2020 16:34:56 UTC] Error checking in buffer: The buffer you checked in was not checked out
+[02-Feb-2020 02:01:43 UTC] PHP Warning:  urldecode() expects parameter 1 to be string, array given in /home/seegarde/public_html/wp-includes/class-wp-query.php on line 2203
+[02-Feb-2020 02:01:43 UTC] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/seegarde/public_html/wp-includes/canonical.php on line 231

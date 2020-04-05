@@ -1051,7 +1051,7 @@ h1, h2, h3, h4, h5, h6 {
   clear: both;
   font-family: "Karla", sans-serif;
   font-weight: 700;
-  color: #2a313e; }
+  color: #9d1f60; }
 
 h1 {
   font-size: 36px;
@@ -1865,7 +1865,7 @@ a {
 .sf-menu li.dropdown li > a:hover,
 .sf-menu li.dropdown li > a:focus {
   color: #F66249;
-  background-color: #212226; }
+  background-color: #f3ec19; }
 
 .sf-menu > li > a,
 .sf-menu > li.dropdown > a {
@@ -1897,7 +1897,7 @@ a {
   /* 1 */
   min-width: 13.33333333em;
   /* 1 */
-  background-color: #25262b; }
+  background-color: #f3ec19; }
 
 /* =Mega Menu Section
    ========================================================================== */
@@ -1907,7 +1907,7 @@ a {
   padding: 14px;
   padding: 0.93333333em;
   margin-top: 0;
-  background-color: #25262b;
+  background-color: #f3ec19;
   color: #ffffff; }
 
 .sf-mega-section {
@@ -1967,7 +1967,7 @@ a {
   height: 0; }
 
 #mobile-menu {
-  background-color: #25262b;
+  background-color: #f3ec19;
   color: #ffffff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
   margin-bottom: 0; }
@@ -2187,9 +2187,9 @@ a {
   display: inline-block;
   text-align: center;
   width: 100%;
-  color: #2a313e; }
+  color: #9d1f60; }
   .tyche-pager a {
-    color: #2a313e; }
+    color: #9d1f60; }
     .tyche-pager a:hover, .tyche-pager a:focus {
       color: #F66249; }
   .tyche-pager li {
@@ -2197,7 +2197,7 @@ a {
     border-radius: 4px;
     margin: 0 5px; }
     .tyche-pager li.active {
-      background-color: #2a313e; }
+      background-color: #9d1f60; }
       .tyche-pager li.active a {
         color: #FFF; }
         .tyche-pager li.active a:hover, .tyche-pager li.active a:focus {
@@ -2246,7 +2246,7 @@ a {
   text-align: center;
   font-size: 16px;
   font-weight: bold;
-  color: #2a313e; }
+  color: #9d1f60; }
   .pagination .page-numbers:hover, .pagination .page-numbers:focus {
     color: #F66249; }
 
@@ -2257,7 +2257,7 @@ a {
   min-width: 20px;
   min-height: 20px;
   border-radius: 4px;
-  background-color: #2a313e;
+  background-color: #9d1f60;
   color: #ffffff; }
 
 .pagination-arrow-container {
@@ -2480,7 +2480,7 @@ a {
   .widget ul.product_list_widget li .woocommerce-Price-amount.amount {
     font-weight: bold;
     margin-bottom: 10px;
-    color: #2a313e; }
+    color: #9d1f60; }
   .widget.widget_product_search {
     position: relative; }
     .widget.widget_product_search .search-field {
@@ -2660,7 +2660,7 @@ a {
         margin-bottom: 10px; }
         .widget.widget_tyche_recent .tyche-recent-post-alternate-widget .tyche-post-content p a {
           font-size: 20px;
-          color: #2a313e;
+          color: #9d1f60;
           font-weight: bold; }
           .widget.widget_tyche_recent .tyche-recent-post-alternate-widget .tyche-post-content p a:hover, .widget.widget_tyche_recent .tyche-recent-post-alternate-widget .tyche-post-content p a:focus {
             color: #f43818; }
@@ -2672,9 +2672,9 @@ a {
           display: inline-block;
           float: left;
           margin-right: 5px;
-          color: #2a313e; }
+          color: #9d1f60; }
           .widget.widget_tyche_recent .tyche-recent-post-alternate-widget .tyche-post-content ul li a {
-            color: #2a313e; }
+            color: #9d1f60; }
           .widget.widget_tyche_recent .tyche-recent-post-alternate-widget .tyche-post-content ul li:before {
             content: '';
             display: none; }
@@ -2842,7 +2842,7 @@ a {
   .content-area-5 h5 span,
   .content-area-5 h6 span {
     font-size: 20px;
-    color: #2a313e;
+    color: #9d1f60;
     position: relative; }
     .content-area-1 h1 span:before, .content-area-1 h2 span:before, .content-area-1 h3 span:before, .content-area-1 h4 span:before, .content-area-1 h5 span:before, .content-area-1 h6 span:before,
     .content-area-2 h1 span:before,
@@ -2948,7 +2948,7 @@ a {
     height: 55px;
     font-size: 23px;
     font-weight: 700;
-    color: #2a313e;
+    color: #9d1f60;
     display: block;
     text-align: center;
     background-color: #f3f3f3;
@@ -2968,9 +2968,9 @@ a {
     .tyche-blog-post .tyche-blog-meta .title .entry-title {
       margin: 0 0 8px 0;
       line-height: 29px;
-      color: #2a313e; }
+      color: #9d1f60; }
       .tyche-blog-post .tyche-blog-meta .title .entry-title a {
-        color: #2a313e; }
+        color: #9d1f60; }
         .tyche-blog-post .tyche-blog-meta .title .entry-title a:hover, .tyche-blog-post .tyche-blog-meta .title .entry-title a:focus {
           color: #F66249; }
     @media (max-width: 768px) {
@@ -2983,11 +2983,11 @@ a {
       .tyche-blog-post .tyche-blog-meta .meta ul li {
         display: inline-block;
         margin-right: 10px;
-        color: #2a313e; }
+        color: #9d1f60; }
         .tyche-blog-post .tyche-blog-meta .meta ul li .sep {
           margin-right: 10px; }
         .tyche-blog-post .tyche-blog-meta .meta ul li a {
-          color: #2a313e; }
+          color: #9d1f60; }
           .tyche-blog-post .tyche-blog-meta .meta ul li a:hover, .tyche-blog-post .tyche-blog-meta .meta ul li a:focus {
             color: #f43818; }
 
@@ -3008,9 +3008,9 @@ a {
   font-weight: 700;
   font-size: 15px;
   margin-top: 20px;
-  color: #2a313e; }
+  color: #9d1f60; }
   .tyche-blog-post .entry-tags a {
-    color: #2a313e;
+    color: #9d1f60;
     font-size: 15px;
     font-weight: 700; }
     .tyche-blog-post .entry-tags a:hover, .tyche-blog-post .entry-tags a:focus {
@@ -3028,11 +3028,11 @@ a {
     margin-top: 0;
     margin-bottom: 15px;
     font-weight: 700;
-    color: #2a313e;
+    color: #9d1f60;
     font-size: 18px;
     line-height: 20px; }
     .author-description .post-author a {
-      color: #2a313e; }
+      color: #9d1f60; }
       .author-description .post-author a:hover, .author-description .post-author a:focus {
         color: #F66249; }
 
@@ -3040,7 +3040,7 @@ a {
   text-align: center;
   width: 35px;
   height: 35px;
-  background: #2a313e;
+  background: #9d1f60;
   display: inline-block;
   float: left;
   margin-right: 10px;
@@ -3055,7 +3055,7 @@ a {
   float: left;
   font-size: 15px;
   font-weight: 700;
-  color: #2a313e; }
+  color: #9d1f60; }
   .tyche-icon-box .text span {
     font-size: 14px;
     display: block;
@@ -3324,7 +3324,7 @@ a {
     .top-header-bar-container .top-header-bar li.top-search {
       margin-right: 11px; }
       .top-header-bar-container .top-header-bar li.top-search input {
-        background: #25262b;
+        background: #f3ec19;
         border: none;
         color: #FFF;
         font-size: 15px;
@@ -3337,7 +3337,7 @@ a {
           background: #313239; }
       .top-header-bar-container .top-header-bar li.top-search #search-top-bar-submit {
         border: none;
-        background: #25262b;
+        background: #f3ec19;
         padding: 0 10px;
         height: 30px;
         position: relative;
@@ -3406,7 +3406,7 @@ a {
 # Multilang menu
 --------------------------------------------------------------*/
 .tyche-multilang-menu {
-  background: #25262B;
+  background: #f3ec19;
   border-radius: 2px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
   color: #ffffff;
@@ -3461,7 +3461,7 @@ a {
 # Modules ## Header
 --------------------------------------------------------------*/
 .site-header {
-  background: #25262B;
+  background: #f3ec19;
   padding-top: 15px; }
   .site-header .banner-wide {
     float: right; }
@@ -3650,7 +3650,7 @@ a {
 .site-footer {
   padding-top: 30px;
   padding-bottom: 30px;
-  background: #25262b;
+  background: #f3ec19;
   color: #e3e3e3;
   font-size: 15px; }
   .site-footer .tyche-contact-p {
@@ -3674,7 +3674,7 @@ a {
         padding: 5px;
         width: 100%; }
         .site-footer .widget .styled-select select option {
-          color: #2a313e; }
+          color: #9d1f60; }
       .site-footer .widget .styled-select:after {
         z-index: 1; }
     .site-footer .widget.widget_search input {
@@ -4049,14 +4049,14 @@ a {
   .woocommerce ul.products li.product a > img.wp-post-image {
     margin-bottom: 0; }
   .woocommerce ul.products li.product .price {
-    color: #2a313e;
+    color: #9d1f60;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 0; }
     .woocommerce ul.products li.product .price del {
       display: inline-block;
       margin-right: 10px;
-      color: #2a313e; }
+      color: #9d1f60; }
     .woocommerce ul.products li.product .price ins {
       display: inline-block;
       color: #F66249; }
@@ -4103,7 +4103,7 @@ a {
 .woocommerce div.product span.price {
   font-weight: 700;
   font-size: 25px;
-  color: #2a313e; }
+  color: #9d1f60; }
 
 .woocommerce .woocommerce-Price-currencySymbol {
   font-size: 12px;
@@ -4190,7 +4190,7 @@ a {
 .woocommerce table.shop_table {
   border-collapse: collapse; }
   .woocommerce table.shop_table thead {
-    background: #2a313e; }
+    background: #9d1f60; }
   .woocommerce table.shop_table td {
     padding: 12px;
     text-align: center; }
@@ -4277,7 +4277,7 @@ a {
 .woocommerce .cart_totals table.shop_table {
   background: transparent; }
   .woocommerce .cart_totals table.shop_table .cart-subtotal > th, .woocommerce .cart_totals table.shop_table .order-total > th {
-    background: #2a313e;
+    background: #9d1f60;
     color: #FFF;
     text-align: center;
     line-height: 31px;
@@ -4287,7 +4287,7 @@ a {
     line-height: 17px;
     text-align: center;
     font-weight: 700;
-    color: #2a313e;
+    color: #9d1f60;
     font-size: 15px; }
   .woocommerce .cart_totals table.shop_table .order-total > td {
     color: #F66249; }
@@ -4305,7 +4305,7 @@ a {
   font-size: 15px;
   line-height: 21px; }
   .woocommerce .woocommerce-info:before {
-    background: #2a313e;
+    background: #9d1f60;
     color: #FFF;
     width: 32px;
     height: 32px;
@@ -4345,15 +4345,15 @@ a {
     border-right: 1px solid rgba(0, 0, 0, 0.1); }
   .woocommerce #order_review table .cart_item .product-quantity {
     font-weight: 700;
-    color: #2a313e; }
+    color: #9d1f60; }
   .woocommerce #order_review table .cart_item .product-total {
     font-size: 15px;
     font-weight: 700;
-    color: #2a313e; }
+    color: #9d1f60; }
   .woocommerce #order_review table .cart-subtotal td {
     font-size: 15px;
     font-weight: 700;
-    color: #2a313e; }
+    color: #9d1f60; }
   .woocommerce #order_review table .cart-subtotal th {
     border-bottom: 1px solid #FFF; }
   .woocommerce #order_review table .order-total td {
@@ -4367,7 +4367,7 @@ a {
 .woocommerce #order_review table.shop_table th.product-name,
 .woocommerce #order_review table.shop_table th.product-total {
   background-color: #ebebeb;
-  color: #2a313e;
+  color: #9d1f60;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-left: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -4442,7 +4442,7 @@ a {
     margin-bottom: 5px;
     margin-top: 10px; }
     .tyche-product h3 a {
-      color: #2a313e; }
+      color: #9d1f60; }
       .tyche-product h3 a:hover, .tyche-product h3 a:focus {
         color: #F66249; }
   .tyche-product .button,
@@ -4453,7 +4453,7 @@ a {
     margin-top: 10px;
     text-transform: uppercase; }
   .tyche-product .price {
-    color: #2a313e;
+    color: #9d1f60;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 0;
@@ -4461,7 +4461,7 @@ a {
     .tyche-product .price del {
       display: inline-block;
       margin-right: 10px;
-      color: #2a313e; }
+      color: #9d1f60; }
     .tyche-product .price ins {
       background: transparent;
       display: inline-block;
@@ -4515,7 +4515,7 @@ a {
       width: 30px;
       text-align: center;
       font-size: 15px;
-      color: #2a313e;
+      color: #9d1f60;
       display: inline-block;
       background-color: #f1f1f3;
       line-height: 30px; }
@@ -4589,7 +4589,7 @@ a {
   top: 15px; }
 
 .woocommerce ul.cart_list li a, .woocommerce ul.product_list_widget li a {
-  color: #2a313e; }
+  color: #9d1f60; }
 
 .woocommerce .widget_shopping_cart .cart_list li, .woocommerce.widget_shopping_cart .cart_list li {
   padding-bottom: 10px; }
@@ -4669,7 +4669,7 @@ a {
   border-left: 1px solid rgba(0, 0, 0, 0.1); }
 
 .woocommerce-checkout #order_review table .cart-subtotal th, .woocommerce-checkout #order_review table .order-total th {
-  color: #2a313e;
+  color: #9d1f60;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
 .cross-sells h2, .cart_totals h2 {

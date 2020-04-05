@@ -22,8 +22,7 @@
 					<?php if ( class_exists( 'WooCommerce' ) ) : ?>
 						<!-- Cart -->
 						<li class="top-cart">
-							<a href="<?php echo esc_url( Tyche_Helper::get_woocommerge_page( 'cart' ) ); ?>"><i class="fa fa-shopping-cart"></i> <?php echo esc_html__( 'Giỏ Hàng', 'tyche' ); ?>
-								- <?php echo ' <span class="price">' . esc_html( Tyche_WooCommerce_Hooks::get_cart_total() ) . '</span>'.' '.esc_html( get_woocommerce_currency_symbol( get_woocommerce_currency() ) ); ?>
+							<a href="<?php echo esc_url( Tyche_Helper::get_woocommerge_page( 'cart' ) ); ?>"><i class="fa fa-cart-plus fa-3x"></i>
 							</a>
 						</li> <!-- / Cart -->
 					<?php endif; ?>
@@ -34,28 +33,7 @@
 							<a href="<?php echo esc_url( Tyche_Helper::get_woocommerge_page( 'account' ) ); ?>"><i class="fa fa-user"></i> <?php echo esc_html__( 'Account', 'tyche' ); ?>
 							</a>
 						</li><!-- / Account -->
-					<?php endif; ?>
-
-					<?php if ( function_exists( 'pll_the_languages' ) ) : ?>
-						<!-- Multi language picker -->
-						<li class="top-multilang">
-							<?php
-							$current_lang = pll_current_language( 'name' );
-							$current_flag = pll_current_language( 'flag' );
-							?>
-							<a href="#" class="multilang-toggle" id="multilang-toggle"> <?php echo $current_flag . esc_html( $current_lang ); ?> </a>
-							<ul class="tyche-multilang-menu" data-menu data-menu-toggle="#multilang-toggle">
-								<?php
-								$args = array(
-									'show_flags' => 1,
-									'show_names' => 1,
-								);
-
-								pll_the_languages( $args );
-								?>
-							</ul>
-						</li><!-- / Multi language picker -->
-					<?php endif; ?>
+					<?php endif; ?>					
 					<?php
 					$enable_search_bar = get_theme_mod( 'tyche_enable_top_bar_search', 'enabled' );
 					?>
@@ -69,7 +47,7 @@
 									<input class="search-field-top-bar" id="search-field-top-bar" placeholder="<?php echo esc_attr__( 'Tìm Kiếm ...', 'tyche' ); ?>" value="" name="s" type="search">
 								</label>
 								<button id="search-top-bar-submit" type="submit" class="search-top-bar-submit">
-									<span class="fa fa-search"></span>
+									<span class="fas fa-search"></span>
 								</button>
 							</form>
 						</li><!-- / Top Search -->

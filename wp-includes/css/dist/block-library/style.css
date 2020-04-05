@@ -47,7 +47,7 @@
   min-width: 300px; }
 
 .wp-block-button {
-  color: #fff; }
+  color: #f3ec19; }
   .wp-block-button.aligncenter {
     text-align: center; }
   .wp-block-button.alignright {
@@ -55,7 +55,7 @@
     text-align: right; }
 
 .wp-block-button__link {
-  background-color: #32373c;
+  background-color: #9d1f60;
   border: none;
   border-radius: 28px;
   box-shadow: none;
@@ -78,7 +78,7 @@
   border-radius: 0 !important; }
 
 .is-style-outline {
-  color: #32373c; }
+  color: #9d1f60; }
   .is-style-outline .wp-block-button__link {
     background-color: transparent;
     border: 2px solid; }
@@ -408,7 +408,7 @@ section.wp-block-cover-image > h2,
     /*rtl:ignore*/
     text-align: right; }
   .wp-block-file .wp-block-file__button {
-    background: #32373c;
+    background: #9d1f60;
     border-radius: 2em;
     color: #fff;
     font-size: 13px;

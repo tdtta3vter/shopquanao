@@ -26,10 +26,10 @@ define('DISALLOW_FILE_EDIT', true);
 define( 'DB_NAME', 'sis86607_na' );
 
 /** MySQL database username */
-define( 'DB_USER', 'sis86607_nana' );
+define( 'DB_USER', 'store' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'z50Dh5f&' );
+define( 'DB_PASSWORD', 'secret' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );

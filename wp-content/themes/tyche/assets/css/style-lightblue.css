@@ -91,7 +91,7 @@ h1 {
 
 mark {
   background: #ff0;
-  color: #000; }
+  color: #9d1f60; }
 
 small {
   font-size: 80%; }
@@ -224,7 +224,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333333;
+  color: #9d1f60;
   background-color: #ffffff; }
 
 input,
@@ -241,7 +241,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #23527c;
+  color: #f3ec19;
   text-decoration: none; }
 
 a:focus {
@@ -1043,7 +1043,7 @@ button,
 input,
 select,
 textarea {
-  color: #717171;
+  color: #9d1f60;
   font-family: "Karla", sans-serif;
   line-height: 1.5; }
 
@@ -1051,7 +1051,7 @@ h1, h2, h3, h4, h5, h6 {
   clear: both;
   font-family: "Karla", sans-serif;
   font-weight: 700;
-  color: #2a313e; }
+  color: #9d1f60; }
 
 h1 {
   font-size: 36px;
@@ -1085,7 +1085,7 @@ h6 {
 
 p {
   margin-bottom: 35px;
-  color: #717171;
+  color: #9d1f60;
   font-family: "Karla", sans-serif;
   font-size: 15px;
   line-height: 23px; }
@@ -1145,7 +1145,7 @@ blockquote, q {
     content: ""; }
 
 q {
-  color: #717171;
+  color: #9d1f60;
   font-family: 'Karla', sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -1163,7 +1163,7 @@ blockquote {
   overflow: hidden;
   quotes: "" "" "" ""; }
   blockquote p {
-    color: #717171;
+    color: #9d1f60;
     font-family: 'Karla', sans-serif;
     font-size: 22px;
     font-style: italic;
@@ -1208,7 +1208,7 @@ ul {
   display: inline-block;
   margin-left: 0;
   width: 15px;
-  color: #2279d3; }
+  color: #9d1f60; }
 
 ol {
   list-style: decimal; }
@@ -1275,10 +1275,10 @@ td {
   height: 330px; }
 
 a {
-  color: #717171; }
+  color: #9d1f60; }
   a:hover,
   a:focus {
-    color: #1b60a7; }
+    color: #f3ec19; }
 
 /*--------------------------------------------------------------
 # Forms
@@ -1289,10 +1289,10 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"], .tyche-blog-post .more-link, .main-slider .hero-caption .btn-group a, .woocommerce a.button, .woocommerce div.product form.cart .button, .tyche-product-slider-container .tyche-banner a, .woocommerce .price_slider_amount .button {
   border: 2px solid;
-  border-color: #2279d3;
+  border-color: #9d1f60;
   border-radius: 3px;
-  background: #2279d3;
-  color: #FFF;
+  background: #9d1f60;
+  color: #f3ec19;
   font-size: 15px;
   padding: 8px 20px; }
   .button:hover,
@@ -1330,8 +1330,8 @@ input[type="submit"] {
   input[type="button"].primary,
   input[type="reset"].primary,
   input[type="submit"].primary {
-    background: #2279d3;
-    color: #FFF; }
+    background: #9d1f60;
+    color: #f3ec19; }
     .primary.button:hover,
     button.primary:hover:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
     input.primary:hover[type="button"],
@@ -1359,7 +1359,7 @@ input[type="submit"] {
     input[type="submit"].primary:focus {
       border-color: #1b60a7;
       background: #1b60a7;
-      color: #FFF; }
+      color: #f3ec19; }
   .red.button,
   button.red:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
   input.red[type="button"],
@@ -1370,7 +1370,7 @@ input[type="submit"] {
   input[type="reset"].red,
   input[type="submit"].red {
     background: #f66249;
-    color: #FFF; }
+    color: #f3ec19; }
     .red.button:hover,
     button.red:hover:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
     input.red:hover[type="button"],
@@ -1398,7 +1398,7 @@ input[type="submit"] {
     input[type="submit"].red:focus {
       border-color: #f43818;
       background: #f43818;
-      color: #FFF; }
+      color: #f3ec19; }
   .secondary.button,
   button.secondary:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
   input.secondary[type="button"],
@@ -1418,7 +1418,7 @@ input[type="submit"] {
   input[type="submit"].beige {
     background: #eaab76;
     border-color: #eaab76;
-    color: #FFF; }
+    color: #f3ec19; }
     .secondary.button:hover,
     button.secondary:hover:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
     input.secondary:hover[type="button"],
@@ -1470,7 +1470,7 @@ input[type="submit"] {
     input[type="submit"].beige:focus {
       border-color: #e3904a;
       background: #e3904a;
-      color: #FFF; }
+      color: #f3ec19; }
   .green.button,
   button.green:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
   input.green[type="button"],
@@ -1482,7 +1482,7 @@ input[type="submit"] {
   input[type="submit"].green {
     background: #99ca45;
     border-color: #99ca45;
-    color: #FFF; }
+    color: #f3ec19; }
     .green.button:hover,
     button.green:hover:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
     input.green:hover[type="button"],
@@ -1510,7 +1510,7 @@ input[type="submit"] {
     input[type="submit"].green:focus {
       border-color: #7eab31;
       background: #7eab31;
-      color: #FFF; }
+      color: #f3ec19; }
   .blue.button,
   button.blue:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
   input.blue[type="button"],
@@ -1520,9 +1520,9 @@ input[type="submit"] {
   input[type="button"].blue,
   input[type="reset"].blue,
   input[type="submit"].blue {
-    background: #263585;
-    border-color: #263585;
-    color: #FFF; }
+    background: #9d1f60;
+    border-color: #9d1f60;
+    color: #f3ec19; }
     .blue.button:hover,
     button.blue:hover:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
     input.blue:hover[type="button"],
@@ -1550,7 +1550,7 @@ input[type="submit"] {
     input[type="submit"].blue:focus {
       border-color: #1b255d;
       background: #1b255d;
-      color: #FFF; }
+      color: #f3ec19; }
   .black.button,
   button.black:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
   input.black[type="button"],
@@ -1560,9 +1560,9 @@ input[type="submit"] {
   input[type="button"].black,
   input[type="reset"].black,
   input[type="submit"].black {
-    background: #252525;
-    border-color: #252525;
-    color: #FFF; }
+    background: #9d1f60;
+    border-color: #9d1f60;
+    color: #f3ec19; }
     .black.button:hover,
     button.black:hover:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
     input.black:hover[type="button"],
@@ -1588,9 +1588,9 @@ input[type="submit"] {
     input[type="submit"].black:hover,
     input[type="submit"].black:active,
     input[type="submit"].black:focus {
-      border-color: #0c0c0c;
-      background: #0c0c0c;
-      color: #FFF; }
+      border-color: #9d1f60;
+      background: #9d1f60;
+      color: #f3ec19; }
   .orange.button,
   button.orange:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
   input.orange[type="button"],
@@ -1600,9 +1600,9 @@ input[type="submit"] {
   input[type="button"].orange,
   input[type="reset"].orange,
   input[type="submit"].orange {
-    background: #ffab1a;
-    border-color: #ffab1a;
-    color: #FFF; }
+    background: #f3ec19;
+    border-color: #f3ec19;
+    color: #f3ec19; }
     .orange.button:hover,
     button.orange:hover:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
     input.orange:hover[type="button"],
@@ -1630,7 +1630,7 @@ input[type="submit"] {
     input[type="submit"].orange:focus {
       border-color: #ffa915;
       background: #ffa201;
-      color: #FFF; }
+      color: #f3ec19; }
   .light_blue.button,
   button.light_blue:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
   input.light_blue[type="button"],
@@ -1640,9 +1640,9 @@ input[type="submit"] {
   input[type="button"].light_blue,
   input[type="reset"].light_blue,
   input[type="submit"].light_blue {
-    background: #2279d3;
-    border-color: #2279d3;
-    color: #FFF; }
+    background: #9d1f60;
+    border-color: #9d1f60;
+    color: #f3ec19; }
     .light_blue.button:hover,
     button.light_blue:hover:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
     input.light_blue:hover[type="button"],
@@ -1670,7 +1670,7 @@ input[type="submit"] {
     input[type="submit"].light_blue:focus {
       border-color: #1e6cbd;
       background: #1e6cbd;
-      color: #FFF; }
+      color: #f3ec19; }
 
 input[type="text"],
 input[type="email"],
@@ -1688,7 +1688,7 @@ input[type="datetime"],
 input[type="datetime-local"],
 input[type="color"],
 textarea {
-  color: #666;
+  color: #9d1f60;
   border: 1px solid #ccc;
   border-radius: 3px;
   padding: 3px;
@@ -1710,7 +1710,7 @@ textarea {
   input[type="datetime-local"]:focus,
   input[type="color"]:focus,
   textarea:focus {
-    color: #111;
+    color: #9d1f60;
     background-color: #F1F1F1;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08) inset;
     -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08) inset;
@@ -1741,13 +1741,13 @@ textarea {
     height: 110px; }
 
 .wpcf7 .wpcf7-submit {
-  background: #2279d3;
-  color: #FFF;
+  background: #9d1f60;
+  color: #f3ec19;
   padding: 5px 35px; }
   .wpcf7 .wpcf7-submit:hover, .wpcf7 .wpcf7-submit:focus {
     background: #3186de;
     border-color: #3186de;
-    color: #FFF; }
+    color: #f3ec19; }
 
 .styled-select {
   position: relative; }
@@ -1757,7 +1757,7 @@ textarea {
   .styled-select:after {
     position: absolute;
     content: '\F107';
-    color: #2279d3;
+    color: #9d1f60;
     top: 3px;
     right: 15px;
     font-family: 'FontAwesome';
@@ -1772,11 +1772,11 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: #2279d3; }
+  color: #9d1f60; }
   a:visited {
     color: #4793e1; }
   a:hover, a:focus, a:active {
-    color: #1b60a7; }
+    color: #f3ec19; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
@@ -1853,7 +1853,7 @@ a {
   display: block;
   font-family: 'Karla', sans-serif;
   font-weight: 700;
-  color: #ffffff;
+  color: #f3ec19;
   position: relative;
   text-transform: uppercase; }
 
@@ -1864,28 +1864,28 @@ a {
 
 .sf-menu li.dropdown li > a:hover,
 .sf-menu li.dropdown li > a:focus {
-  color: #2279d3;
+  color: #f3ec19;
   background-color: #212226; }
 
 .sf-menu > li > a,
 .sf-menu > li.dropdown > a {
   padding: 15px 30px 15px 0;
-  color: #ffffff; }
+  color: #f3ec19; }
 
 .sf-menu > li a i {
   margin-right: 2px;
   margin-right: 0.13333333em;
-  color: #2279d3; }
+  color: #f3ec19; }
 
 .sf-menu > li.current-menu-item > a,
 .sf-menu > li.current > a {
-  color: #2279d3; }
+  color: #f3ec19; }
 
 .sf-menu > li.sfHover > a:hover,
 .sf-menu > li.sfHover > a:focus,
 .sf-menu > li > a:hover,
 .sf-menu > li > a:focus {
-  color: #2279d3; }
+  color: #f3ec19; }
 
 /* =DropDown
    ========================================================================== */
@@ -1897,7 +1897,7 @@ a {
   /* 1 */
   min-width: 13.33333333em;
   /* 1 */
-  background-color: #25262b; }
+  background-color: #9d1f60; }
 
 /* =Mega Menu Section
    ========================================================================== */
@@ -1907,8 +1907,8 @@ a {
   padding: 14px;
   padding: 0.93333333em;
   margin-top: 0;
-  background-color: #25262b;
-  color: #ffffff; }
+  background-color: #9d1f60;
+  color: #f3ec19; }
 
 .sf-mega-section {
   float: left;
@@ -1967,8 +1967,8 @@ a {
   height: 0; }
 
 #mobile-menu {
-  background-color: #25262b;
-  color: #ffffff;
+  background-color: #9d1f60;
+  color: #f3ec19;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
   margin-bottom: 0; }
 
@@ -2007,9 +2007,9 @@ a {
   font-size: 1.5rem;
   text-align: left;
   text-decoration: none;
-  color: #ffffff; }
+  color: #f3ec19; }
   #mobile-menu li a:focus {
-    color: #2279d3; }
+    color: #9d1f60; }
 
 #mobile-menu ul a {
   padding-left: 42px;
@@ -2031,7 +2031,7 @@ a {
   width: 3.73333333em;
   height: 100%;
   border-left: 1px solid rgba(255, 255, 255, 0.25);
-  color: #ffffff;
+  color: #f3ec19;
   font-size: 15px;
   font-size: 1.5rem;
   line-height: 53px;
@@ -2062,7 +2062,7 @@ a {
 #mobile-menu-trigger i {
   font-size: 17px;
   font-size: 1.7rem;
-  color: #2279d3; }
+  color: #f3ec19; }
 
 /* ==========================================================================
    =Breadcrumbs navigation
@@ -2071,7 +2071,7 @@ a {
   margin: 0;
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #a7a7a7;
+  color: #9d1f60;
   font-size: 14px;
   line-height: 13px; }
   .tyche-breadcrumbs span {
@@ -2081,7 +2081,7 @@ a {
     margin-right: 4px; }
   .tyche-breadcrumbs a {
     font-size: 14x;
-    color: #777; }
+    color: #9d1f60; }
     .tyche-breadcrumbs a:hover, .tyche-breadcrumbs a:focus {
       color: #1b60a7; }
 
@@ -2104,7 +2104,7 @@ a {
     position: relative; }
     #menu-social ul li a {
       padding: 10px 10px;
-      color: #FFF;
+      color: #f3ec19;
       /* Add hover effects for the links, the brand colors */
       /* Add the social links depending on the link href */ }
       #menu-social ul li a:before {
@@ -2128,9 +2128,9 @@ a {
       #menu-social ul li a:hover[href*="pinterest.com"]::before, #menu-social ul li a:focus[href*="pinterest.com"]::before {
         color: #c8232c; }
       #menu-social ul li a:hover[href*="github.com"]::before, #menu-social ul li a:focus[href*="github.com"]::before {
-        color: #171515; }
+        color: #9d1f60; }
       #menu-social ul li a:hover[href*="tumblr.com"]::before, #menu-social ul li a:focus[href*="tumblr.com"]::before {
-        color: #34526f; }
+        color: #9d1f60; }
       #menu-social ul li a:hover[href*="youtube.com"]::before, #menu-social ul li a:focus[href*="youtube.com"]::before {
         color: #c4302b; }
       #menu-social ul li a:hover[href*="flickr.com"]::before, #menu-social ul li a:focus[href*="flickr.com"]::before {
@@ -2187,11 +2187,11 @@ a {
   display: inline-block;
   text-align: center;
   width: 100%;
-  color: #2a313e; }
+  color: #f3ec19; }
   .tyche-pager a {
-    color: #2a313e; }
+    color: #f3ec19; }
     .tyche-pager a:hover, .tyche-pager a:focus {
-      color: #2279d3; }
+      color: #9d1f60; }
   .tyche-pager li {
     display: inline-block;
     border-radius: 4px;
@@ -2199,9 +2199,9 @@ a {
     .tyche-pager li.active {
       background-color: #2a313e; }
       .tyche-pager li.active a {
-        color: #FFF; }
+        color: #f3ec19; }
         .tyche-pager li.active a:hover, .tyche-pager li.active a:focus {
-          color: #2279d3; }
+          color: #9d1f60; }
     .tyche-pager li a {
       font-size: 16px;
       padding: 4px 8px;
@@ -2209,7 +2209,7 @@ a {
       min-height: 22px; }
       .tyche-pager li a:hover, .tyche-pager li a:focus {
         text-decoration: none;
-        color: #2279d3; }
+        color: #9d1f60; }
       .tyche-pager li a .pager-text {
         font-size: 13px;
         letter-spacing: 4px; }
@@ -2246,9 +2246,9 @@ a {
   text-align: center;
   font-size: 16px;
   font-weight: bold;
-  color: #2a313e; }
+  color: #9d1f60; }
   .pagination .page-numbers:hover, .pagination .page-numbers:focus {
-    color: #2279d3; }
+    color: #f3ec19; }
 
 .pagination .page-numbers:last-child {
   margin-right: 0; }
@@ -2258,7 +2258,7 @@ a {
   min-height: 20px;
   border-radius: 4px;
   background-color: #2a313e;
-  color: #ffffff; }
+  color: #f3ec19; }
 
 .pagination-arrow-container {
   font-size: 13px;
@@ -2288,7 +2288,7 @@ a {
   padding: 4px; }
 
 .page-links {
-  color: #1a171c; }
+  color: #9d1f60; }
 
 /* =Post Navigation
    ========================================================================== */
@@ -2324,7 +2324,7 @@ a {
   display: block;
   font-size: 16px;
   text-transform: uppercase;
-  color: #1a171c;
+  color: #9d1f60;
   margin-bottom: 7px; }
 
 /*--------------------------------------------------------------
@@ -2436,7 +2436,7 @@ a {
     right: 15px;
     top: 2px;
     content: '\F002';
-    color: #2279d3;
+    color: #9d1f60;
     display: block;
     font-family: 'FontAwesome'; }
   .widget.widget_search .search-submit {
@@ -2451,9 +2451,9 @@ a {
     text-indent: -99999999999px;
     text-align: center; }
   .widget.widget_categories ul li, .widget.widget_recent_entries ul li, .widget.widget_archive ul li, .widget.widget_meta ul li, .widget.widget_pages ul li, .widget.widget_nav_menu ul li {
-    color: #2279d3; }
+    color: #9d1f60; }
     .widget.widget_categories ul li a, .widget.widget_recent_entries ul li a, .widget.widget_archive ul li a, .widget.widget_meta ul li a, .widget.widget_pages ul li a, .widget.widget_nav_menu ul li a {
-      color: #2279d3; }
+      color: #9d1f60; }
       .widget.widget_categories ul li a:hover, .widget.widget_categories ul li a:focus, .widget.widget_recent_entries ul li a:hover, .widget.widget_recent_entries ul li a:focus, .widget.widget_archive ul li a:hover, .widget.widget_archive ul li a:focus, .widget.widget_meta ul li a:hover, .widget.widget_meta ul li a:focus, .widget.widget_pages ul li a:hover, .widget.widget_pages ul li a:focus, .widget.widget_nav_menu ul li a:hover, .widget.widget_nav_menu ul li a:focus {
         color: #1b60a7; }
   .widget.widget_tag_cloud a {
@@ -2463,17 +2463,17 @@ a {
     padding: 8px;
     border: 1px solid #e1e1e1;
     border-radius: 0;
-    color: #777777;
+    color: #9d1f60;
     transition: background-color 250ms cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
     font-size: 15px !important; }
     .widget.widget_tag_cloud a:hover, .widget.widget_tag_cloud a:focus {
-      background-color: #2279d3;
-      color: #ffffff;
-      border-color: #2279d3; }
+      background-color: #9d1f60;
+      color: #f3ec19;
+      border-color: #9d1f60; }
     .widget.widget_tag_cloud a:visited {
-      color: #fff; }
+      color: #f3ec19; }
   .widget ul.product_list_widget li a:hover, .widget ul.product_list_widget li a:active, .widget ul.product_list_widget li a:focus {
-    color: #2279d3; }
+    color: #9d1f60; }
   .widget ul.product_list_widget li .star-rating {
     display: block;
     margin: 5px 0 5px 0; }
@@ -2489,8 +2489,8 @@ a {
     .widget.widget_product_search input[type="submit"] {
       display: inline-block;
       margin-top: 15px;
-      background: #2279d3;
-      color: #fff; }
+      background: #9d1f60;
+      color: #f3ec19; }
       .widget.widget_product_search input[type="submit"]:hover, .widget.widget_product_search input[type="submit"]:active, .widget.widget_product_search input[type="submit"]:focus {
         background: #1b60a7; }
   .widget.widget_calendar {
@@ -2511,8 +2511,8 @@ a {
       .widget.widget_calendar #wp-calendar tfoot {
         font-size: 0; }
       .widget.widget_calendar #wp-calendar > caption {
-        background-color: #2279d3;
-        color: #FFF;
+        background-color: #9d1f60;
+        color: #f3ec19;
         min-height: 50px;
         text-align: center;
         font-size: 20px;
@@ -2522,18 +2522,18 @@ a {
         position: relative;
         margin-bottom: 0; }
       .widget.widget_calendar #wp-calendar thead {
-        color: #2279d3; }
+        color: #9d1f60; }
         .widget.widget_calendar #wp-calendar thead > tr {
           height: 50px; }
       .widget.widget_calendar #wp-calendar th {
         background: transparent;
         border: none;
-        color: #717171;
+        color: #9d1f60;
         font-size: 17px;
         font-weight: 400; }
       .widget.widget_calendar #wp-calendar td:not(.pad) {
         background: #f1f1f1;
-        color: #717171;
+        color: #9d1f60;
         width: 44px;
         height: 44px; }
       .widget.widget_calendar #wp-calendar td, .widget.widget_calendar #wp-calendar th {
@@ -2541,8 +2541,8 @@ a {
         border: none;
         padding: 0; }
         .widget.widget_calendar #wp-calendar td#today, .widget.widget_calendar #wp-calendar th#today {
-          background: #2279d3;
-          color: #fff; }
+          background: #9d1f60;
+          color: #f3ec19; }
           .widget.widget_calendar #wp-calendar td#today:hover, .widget.widget_calendar #wp-calendar td#today:focus, .widget.widget_calendar #wp-calendar th#today:hover, .widget.widget_calendar #wp-calendar th#today:focus {
             text-decoration: none;
             background: #1b60a7; }
@@ -2550,9 +2550,9 @@ a {
               text-decoration: none;
               background: #1b60a7; }
         .widget.widget_calendar #wp-calendar td a, .widget.widget_calendar #wp-calendar th a {
-          color: #fff;
+          color: #f3ec19;
           text-decoration: none;
-          background: #2279d3;
+          background: #9d1f60;
           display: block;
           line-height: 44px; }
           .widget.widget_calendar #wp-calendar td a:hover, .widget.widget_calendar #wp-calendar td a:focus, .widget.widget_calendar #wp-calendar th a:hover, .widget.widget_calendar #wp-calendar th a:focus {
@@ -2564,9 +2564,9 @@ a {
         left: 5px;
         width: 35px;
         height: 50px;
-        background-color: #2279d3;
+        background-color: #9d1f60;
         border: none;
-        color: #FFF; }
+        color: #f3ec19; }
         .widget.widget_calendar #wp-calendar #prev:before {
           content: '\F104';
           display: block;
@@ -2574,7 +2574,7 @@ a {
           line-height: 44px;
           text-align: center;
           position: relative;
-          color: #FFF;
+          color: #f3ec19;
           font-family: 'FontAwesome'; }
         .widget.widget_calendar #wp-calendar #prev > a {
           font-size: 15px;
@@ -2589,8 +2589,8 @@ a {
         right: 5px;
         width: 35px;
         height: 50px;
-        background-color: #2279d3;
-        color: #FFF;
+        background-color: #9d1f60;
+        color: #f3ec19;
         display: block; }
         .widget.widget_calendar #wp-calendar #next:before {
           content: '\F105';
@@ -2599,7 +2599,7 @@ a {
           line-height: 44px;
           text-align: center;
           position: relative;
-          color: #FFF;
+          color: #f3ec19;
           font-family: 'FontAwesome'; }
         .widget.widget_calendar #wp-calendar #next > a {
           line-height: initial;
@@ -2672,9 +2672,9 @@ a {
           display: inline-block;
           float: left;
           margin-right: 5px;
-          color: #2a313e; }
+          color: #9d1f60; }
           .widget.widget_tyche_recent .tyche-recent-post-alternate-widget .tyche-post-content ul li a {
-            color: #2a313e; }
+            color: #9d1f60; }
           .widget.widget_tyche_recent .tyche-recent-post-alternate-widget .tyche-post-content ul li:before {
             content: '';
             display: none; }
@@ -2691,7 +2691,7 @@ a {
     .widget.widget_tyche_recent .tyche-recent-post-widget .tyche-post-content {
       padding-left: 85px; }
       .widget.widget_tyche_recent .tyche-recent-post-widget .tyche-post-content p a {
-        color: #717171; }
+        color: #9d1f60; }
         .widget.widget_tyche_recent .tyche-recent-post-widget .tyche-post-content p a:hover, .widget.widget_tyche_recent .tyche-recent-post-widget .tyche-post-content p a:focus {
           color: #1b60a7; }
   .widget.beige .widget-title > span:before, .widget.secondary .widget-title > span:before {
@@ -2699,61 +2699,61 @@ a {
   .widget.beige .tyche-banner-caption a, .widget.secondary .tyche-banner-caption a {
     background: #eaab76;
     border-color: #eaab76;
-    color: #fff; }
+    color: #f3ec19; }
     .widget.beige .tyche-banner-caption a:hover, .widget.beige .tyche-banner-caption a:focus, .widget.secondary .tyche-banner-caption a:hover, .widget.secondary .tyche-banner-caption a:focus {
       background: #e79d60;
       border-color: #e79d60;
-      color: #fff; }
+      color: #f3ec19; }
   .widget.orange .widget-title > span:before {
-    background: #ffab1a; }
+    background: #f3ec19; }
   .widget.orange .tyche-banner-caption a {
-    background: #ffab1a;
-    border-color: #ffab1a;
-    color: #fff; }
+    background: #f3ec19;
+    border-color: #f3ec19;
+    color: #f3ec19; }
     .widget.orange .tyche-banner-caption a:hover, .widget.orange .tyche-banner-caption a:focus {
       background: #ffa201;
       border-color: #ffa201;
-      color: #fff; }
+      color: #f3ec19; }
   .widget.black .widget-title > span:before {
-    background: #252525; }
+    background: #9d1f60; }
   .widget.black .tyche-banner-caption a {
-    background: #252525;
-    border-color: #252525;
-    color: #fff; }
+    background: #9d1f60;
+    border-color: #9d1f60;
+    color: #f3ec19; }
     .widget.black .tyche-banner-caption a:hover, .widget.black .tyche-banner-caption a:focus {
-      background: #181818;
-      border-color: #181818;
-      color: #fff; }
+      background: #9d1f60;
+      border-color: #9d1f60;
+      color: #f3ec19; }
   .widget.blue .widget-title > span:before {
-    background: #263585; }
+    background: #9d1f60; }
   .widget.blue .tyche-banner-caption a {
-    background: #263585;
-    border-color: #263585;
-    color: #fff; }
+    background: #9d1f60;
+    border-color: #9d1f60;
+    color: #f3ec19; }
     .widget.blue .tyche-banner-caption a:hover, .widget.blue .tyche-banner-caption a:focus {
       background: #202d71;
       border-color: #202d71;
-      color: #fff; }
+      color: #f3ec19; }
   .widget.light_blue .widget-title > span:before {
-    background: #2279d3; }
+    background: #9d1f60; }
   .widget.light_blue .tyche-banner-caption a {
-    background: #2279d3;
-    border-color: #2279d3;
-    color: #fff; }
+    background: #9d1f60;
+    border-color: #9d1f60;
+    color: #f3ec19; }
     .widget.light_blue .tyche-banner-caption a:hover, .widget.light_blue .tyche-banner-caption a:focus {
       background: #1e6cbd;
       border-color: #1e6cbd;
-      color: #fff; }
+      color: #f3ec19; }
   .widget.green .widget-title > span:before {
     background: #99ca45; }
   .widget.green .tyche-banner-caption a {
     background: #99ca45;
     border-color: #99ca45;
-    color: #fff; }
+    color: #f3ec19; }
     .widget.green .tyche-banner-caption a:hover, .widget.green .tyche-banner-caption a:focus {
       background: #8dbf36;
       border-color: #8dbf36;
-      color: #fff; }
+      color: #f3ec19; }
 
 #secondary .widget_categories, #secondary .widget_archive, .page-template-frontpage-template .widget_categories, .page-template-frontpage-template .widget_archive {
   overflow: hidden; }
@@ -2876,7 +2876,7 @@ a {
       height: 4px;
       content: '';
       display: block;
-      background: #2279d3; }
+      background: #9d1f60; }
 
 .content-area-2 {
   border-top: 1px solid #ebebeb;
@@ -2890,19 +2890,19 @@ a {
   margin-bottom: 0; }
 
 .site-footer a {
-  color: #fff; }
+  color: #f3ec19; }
   .site-footer a:hover, .site-footer a:focus {
-    color: #2279d3; }
+    color: #9d1f60; }
 
 .site-footer .widget.widget_tag_cloud a {
-  color: #fff; }
+  color: #f3ec19; }
   .site-footer .widget.widget_tag_cloud a:hover, .site-footer .widget.widget_tag_cloud a:focus {
-    color: #fff; }
+    color: #f3ec19; }
 
 .site-footer .widget.widget_tyche_recent .tyche-recent-post-widget .tyche-post-content p a {
-  color: #fff; }
+  color: #f3ec19; }
   .site-footer .widget.widget_tyche_recent .tyche-recent-post-widget .tyche-post-content p a:hover, .site-footer .widget.widget_tyche_recent .tyche-recent-post-widget .tyche-post-content p a:focus {
-    color: #2279d3; }
+    color: #9d1f60; }
 
 /*--------------------------------------------------------------
 # Content
@@ -2948,10 +2948,10 @@ a {
     height: 55px;
     font-size: 23px;
     font-weight: 700;
-    color: #2a313e;
+    color: #9d1f60;
     display: block;
     text-align: center;
-    background-color: #f3f3f3;
+    background-color: #f3ec19;
     overflow: hidden;
     padding: 6px;
     line-height: 21px;
@@ -2968,11 +2968,11 @@ a {
     .tyche-blog-post .tyche-blog-meta .title .entry-title {
       margin: 0 0 8px 0;
       line-height: 29px;
-      color: #2a313e; }
+      color: #9d1f60; }
       .tyche-blog-post .tyche-blog-meta .title .entry-title a {
-        color: #2a313e; }
+        color: #9d1f60; }
         .tyche-blog-post .tyche-blog-meta .title .entry-title a:hover, .tyche-blog-post .tyche-blog-meta .title .entry-title a:focus {
-          color: #2279d3; }
+          color: #f3ec19; }
     @media (max-width: 768px) {
       .tyche-blog-post .tyche-blog-meta .title {
         width: 78%; } }
@@ -2996,13 +2996,13 @@ a {
   margin-top: 25px; }
 
 .tyche-blog-post .more-link {
-  background: #2279d3;
-  color: #FFF;
+  background: #9d1f60;
+  color: #f3ec19;
   display: inline-block; }
   .tyche-blog-post .more-link:hover, .tyche-blog-post .more-link:active, .tyche-blog-post .more-link:focus {
     border-color: #1b60a7;
     background: #1b60a7;
-    color: #FFF; }
+    color: #f3ec19; }
 
 .tyche-blog-post .entry-tags {
   font-weight: 700;
@@ -3014,7 +3014,7 @@ a {
     font-size: 15px;
     font-weight: 700; }
     .tyche-blog-post .entry-tags a:hover, .tyche-blog-post .entry-tags a:focus {
-      color: #2279d3; }
+      color: #9d1f60; }
 
 .author-description {
   padding: 30px 15px;
@@ -3034,20 +3034,20 @@ a {
     .author-description .post-author a {
       color: #2a313e; }
       .author-description .post-author a:hover, .author-description .post-author a:focus {
-        color: #2279d3; }
+        color: #9d1f60; }
 
 .tyche-icon-box .icon {
   text-align: center;
   width: 35px;
   height: 35px;
-  background: #2a313e;
+  background: #9d1f60;
   display: inline-block;
   float: left;
   margin-right: 10px;
   margin-top: 5px; }
   .tyche-icon-box .icon span {
     font-size: 18px;
-    color: #FFF;
+    color: #f3ec19;
     line-height: 35px; }
 
 .tyche-icon-box .text {
@@ -3309,13 +3309,13 @@ a {
 --------------------------------------------------------------*/
 .top-header-bar-container {
   width: 100%;
-  background: #2b2e34;
-  color: #FFF;
+  background: #9d1f60;
+  color: #f3ec19;
   vertical-align: middle; }
   .top-header-bar-container a, .top-header-bar-container p, .top-header-bar-container i, .top-header-bar-container span, .top-header-bar-container input {
-    color: #FFF; }
+    color: #f3ec19; }
   .top-header-bar-container a:hover i, .top-header-bar-container a:focus i {
-    color: #2279d3; }
+    color: #9d1f60; }
   .top-header-bar-container .top-header-bar li {
     float: right;
     line-height: 50px; }
@@ -3324,9 +3324,9 @@ a {
     .top-header-bar-container .top-header-bar li.top-search {
       margin-right: 11px; }
       .top-header-bar-container .top-header-bar li.top-search input {
-        background: #25262b;
+        background: #9d1f60;
         border: none;
-        color: #FFF;
+        color: #f3ec19;
         font-size: 15px;
         padding-left: 10px;
         padding-right: 15px;
@@ -3334,10 +3334,10 @@ a {
         transition: background 250ms cubic-bezier(0.075, 0.82, 0.165, 1) 0s; }
         .top-header-bar-container .top-header-bar li.top-search input:focus {
           transition: background 250ms cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
-          background: #313239; }
+          background: #9d1f60; }
       .top-header-bar-container .top-header-bar li.top-search #search-top-bar-submit {
         border: none;
-        background: #25262b;
+        background: #9d1f60;
         padding: 0 10px;
         height: 30px;
         position: relative;
@@ -3346,11 +3346,11 @@ a {
     .top-header-bar-container .top-header-bar li.top-cart {
       padding-left: 40px;
       padding-right: 40px;
-      background: #2279d3; }
+      background: #9d1f60; }
       .top-header-bar-container .top-header-bar li.top-cart:hover, .top-header-bar-container .top-header-bar li.top-cart:focus-within {
         background: #1b60a7; }
       .top-header-bar-container .top-header-bar li.top-cart a:hover i, .top-header-bar-container .top-header-bar li.top-cart a:focus i {
-        color: #FFF; }
+        color: #f3ec19; }
     .top-header-bar-container .top-header-bar li.top-multilang {
       margin-right: 15px;
       border-left: 1px solid #353940;
@@ -3360,7 +3360,7 @@ a {
         content: '\F107';
         position: relative;
         display: inline-block;
-        color: #FFF;
+        color: #f3ec19;
         font-family: 'FontAwesome'; }
       .top-header-bar-container .top-header-bar li.top-multilang .multilang-toggle {
         margin-left: 15px; }
@@ -3376,7 +3376,7 @@ a {
       margin-right: 20px;
       border-left: 1px solid #353940; }
       .top-header-bar-container .top-header-bar li.top-account a:hover, .top-header-bar-container .top-header-bar li.top-account a:focus {
-        color: #2279d3; }
+        color: #f3ec19; }
     @media (max-width: 767px) {
       .top-header-bar-container .top-header-bar li {
         width: 100%;
@@ -3406,7 +3406,7 @@ a {
 # Multilang menu
 --------------------------------------------------------------*/
 .tyche-multilang-menu {
-  background: #25262B;
+  background: #9d1f60;
   border-radius: 2px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
   color: #ffffff;
@@ -3444,7 +3444,7 @@ a {
     .tyche-multilang-menu li:last-child {
       margin-bottom: 0; }
     .tyche-multilang-menu li:hover, .tyche-multilang-menu li:focus {
-      background: #2279d3; }
+      background: #9d1f60; }
   .tyche-multilang-menu a {
     color: inherit;
     display: block;
@@ -3455,19 +3455,19 @@ a {
     width: 100%;
     white-space: nowrap; }
     .tyche-multilang-menu a:hover, .tyche-multilang-menu a:focus {
-      color: #2279d3; }
+      color: #9d1f60; }
 
 /*--------------------------------------------------------------
 # Modules ## Header
 --------------------------------------------------------------*/
 .site-header {
-  background: #25262B;
+  background: #9d1f60;
   padding-top: 15px; }
   .site-header .banner-wide {
     float: right; }
   .site-header .custom-logo-link {
     display: block;
-    color: #FFF;
+    color: #f3ec19;
     font-size: 30px;
     font-weight: 700; }
     .site-header .custom-logo-link img {
@@ -3475,7 +3475,7 @@ a {
       height: 70px; }
   .site-header .site-title {
     display: block;
-    color: #FFF;
+    color: #f3ec19;
     font-size: 30px;
     font-weight: 700; }
   @media (max-width: 767px) {
@@ -3541,7 +3541,7 @@ a {
     width: 350px;
     top: 30%; }
     .main-slider .hero-caption span, .main-slider .hero-caption a, .main-slider .hero-caption i, .main-slider .hero-caption p, .main-slider .hero-caption h1, .main-slider .hero-caption h2, .main-slider .hero-caption h3, .main-slider .hero-caption h4, .main-slider .hero-caption h5, .main-slider .hero-caption h6 {
-      color: #FFF; }
+      color: #f3ec19; }
     .main-slider .hero-caption.left {
       left: 20%; }
     .main-slider .hero-caption.center {
@@ -3562,9 +3562,9 @@ a {
       margin-left: 16px; }
     .main-slider .hero-caption .btn-group a {
       display: inline-block;
-      color: #FFF;
+      color: #f3ec19;
       border-width: 2px;
-      border-color: #2279d3;
+      border-color: #9d1f60;
       font-weight: 700;
       transition: all 0.2s ease-in-out; }
       .main-slider .hero-caption .btn-group a:hover, .main-slider .hero-caption .btn-group a:focus {
@@ -3572,13 +3572,13 @@ a {
         border-color: #1b60a7;
         transition: all 0.2s ease-in-out; }
       .main-slider .hero-caption .btn-group a:last-of-type {
-        border-color: #fff;
+        border-color: #f3ec19;
         background: transparent;
         margin-left: 15px; }
         .main-slider .hero-caption .btn-group a:last-of-type:hover, .main-slider .hero-caption .btn-group a:last-of-type:focus {
-          color: #FFF;
-          background: #2279d3;
-          border-color: #2279d3; }
+          color: #f3ec19;
+          background: #9d1f60;
+          border-color: #9d1f60; }
   .main-slider .main-slider-previous, .main-slider .main-slider-next {
     background: transparent !important;
     border: transparent !important;
@@ -3591,16 +3591,16 @@ a {
       color: #494a4d;
       font-size: 110px; }
     .main-slider .main-slider-previous:hover i, .main-slider .main-slider-previous:focus i, .main-slider .main-slider-next:hover i, .main-slider .main-slider-next:focus i {
-      color: #FFF; }
+      color: #f3ec19; }
   .main-slider .main-slider-previous {
     left: 10%; }
   .main-slider .main-slider-next {
     right: 10%; }
   .main-slider .main-slider-bar {
-    background: #2279d3;
-    color: #FFF; }
+    background: #9d1f60;
+    color: #f3ec19; }
     .main-slider .main-slider-bar span, .main-slider .main-slider-bar a, .main-slider .main-slider-bar i, .main-slider .main-slider-bar p, .main-slider .main-slider-bar h1, .main-slider .main-slider-bar h2, .main-slider .main-slider-bar h3, .main-slider .main-slider-bar h4, .main-slider .main-slider-bar h5, .main-slider .main-slider-bar h6 {
-      color: #FFF; }
+      color: #f3ec19; }
     .main-slider .main-slider-bar .main-slider-info {
       display: inline-block;
       padding: 14px 0 14px;
@@ -3650,27 +3650,27 @@ a {
 .site-footer {
   padding-top: 30px;
   padding-bottom: 30px;
-  background: #25262b;
+  background: #9d1f60;
   color: #e3e3e3;
   font-size: 15px; }
   .site-footer .tyche-contact-p {
     margin-bottom: 15px; }
     .site-footer .tyche-contact-p strong {
-      color: #FFF; }
+      color: #f3ec19; }
     .site-footer .tyche-contact-p i {
       margin-right: 8px;
-      color: #FFF; }
+      color: #f3ec19; }
   .site-footer .widget {
     font-size: 15px;
     margin-bottom: 30px; }
     .site-footer .widget ul li a {
-      color: #fff; }
+      color: #f3ec19; }
       .site-footer .widget ul li a:hover, .site-footer .widget ul li a:focus {
-        color: #2279d3; }
+        color: #9d1f60; }
     .site-footer .widget .styled-select {
       overflow: hidden; }
       .site-footer .widget .styled-select select {
-        color: #fff;
+        color: #f3ec19;
         padding: 5px;
         width: 100%; }
         .site-footer .widget .styled-select select option {
@@ -3679,36 +3679,36 @@ a {
         z-index: 1; }
     .site-footer .widget.widget_search input {
       background: transparent;
-      color: #fff; }
+      color: #f3ec19; }
     .site-footer .widget.widget_product_search input[type="submit"] {
       position: relative;
       display: inline-block;
       margin-top: 5px;
-      background: #2279d3;
-      color: #fff; }
+      background: #9d1f60;
+      color: #f3ec19; }
     .site-footer .widget.widget_shopping_cart ul li a {
-      color: #fff; }
+      color: #f3ec19; }
       .site-footer .widget.widget_shopping_cart ul li a:hover, .site-footer .widget.widget_shopping_cart ul li a:focus {
-        color: #2279d3; }
+        color: #9d1f60; }
     .site-footer .widget.widget_tyche_recent .tyche-recent-post-widget .tyche-post-content p a {
-      color: #fff; }
+      color: #f3ec19; }
       .site-footer .widget.widget_tyche_recent .tyche-recent-post-widget .tyche-post-content p a:hover, .site-footer .widget.widget_tyche_recent .tyche-recent-post-widget .tyche-post-content p a:focus {
-        color: #2279d3; }
+        color: #9d1f60; }
     .site-footer .widget .product_list_widget li a {
-      color: #fff; }
+      color: #f3ec19; }
       .site-footer .widget .product_list_widget li a:hover, .site-footer .widget .product_list_widget li a:focus {
-        color: #2279d3; }
+        color: #9d1f60; }
     .site-footer .widget .product_list_widget li a > span {
-      color: #fff; }
+      color: #f3ec19; }
       .site-footer .widget .product_list_widget li a > span:hover, .site-footer .widget .product_list_widget li a > span:focus {
-        color: #2279d3; }
+        color: #9d1f60; }
   .site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6 {
-    color: #FFF;
+    color: #f3ec19;
     margin-top: 0;
     margin-bottom: 45px; }
     .site-footer h1 span, .site-footer h2 span, .site-footer h3 span, .site-footer h4 span, .site-footer h5 span, .site-footer h6 span {
       font-size: 20px;
-      color: #FFF;
+      color: #f3ec19;
       position: relative; }
       .site-footer h1 span:before, .site-footer h2 span:before, .site-footer h3 span:before, .site-footer h4 span:before, .site-footer h5 span:before, .site-footer h6 span:before {
         position: absolute;
@@ -3728,14 +3728,14 @@ a {
     color: #e3e3e3; }
 
 .site-copyright {
-  background: #2b2e34;
+  background: #9d1f60;
   line-height: 50px;
   font-size: 15px;
-  color: #FFF; }
+  color: #f3ec19; }
   .site-copyright a, .site-copyright p, .site-copyright span, .site-copyright i {
-    color: #FFF; }
+    color: #f3ec19; }
   .site-copyright a:hover, .site-copyright a:focus {
-    color: #2279d3; }
+    color: #9d1f60; }
   .site-copyright .sep {
     margin: 0 10px; }
 
@@ -3749,12 +3749,12 @@ a {
 .woocommerce .tyche-blog-post a.more-link, .tyche-blog-post .woocommerce a.more-link, .woocommerce .main-slider .hero-caption .btn-group a, .main-slider .hero-caption .btn-group .woocommerce a, .woocommerce a.button, .woocommerce div.product form.cart a.button, .woocommerce .tyche-product-slider-container .tyche-banner a, .tyche-product-slider-container .tyche-banner .woocommerce a, .woocommerce .price_slider_amount a.button {
   display: inline-block; }
   .woocommerce .tyche-blog-post a.primary.more-link, .tyche-blog-post .woocommerce a.primary.more-link, .woocommerce .main-slider .hero-caption .btn-group a.primary, .main-slider .hero-caption .btn-group .woocommerce a.primary, .woocommerce a.primary.button, .woocommerce div.product form.cart a.primary.button, .woocommerce .tyche-product-slider-container .tyche-banner a.primary, .tyche-product-slider-container .tyche-banner .woocommerce a.primary {
-    background: #2279d3;
-    color: #FFF; }
+    background: #9d1f60;
+    color: #f3ec19; }
     .woocommerce .tyche-blog-post a.primary.more-link:hover, .tyche-blog-post .woocommerce a.primary.more-link:hover, .woocommerce .main-slider .hero-caption .btn-group a.primary:hover, .main-slider .hero-caption .btn-group .woocommerce a.primary:hover, .woocommerce a.primary.button:hover, .woocommerce div.product form.cart a.primary.button:hover, .woocommerce .tyche-product-slider-container .tyche-banner a.primary:hover, .tyche-product-slider-container .tyche-banner .woocommerce a.primary:hover, .woocommerce .tyche-blog-post a.primary.more-link:active, .tyche-blog-post .woocommerce a.primary.more-link:active, .woocommerce .main-slider .hero-caption .btn-group a.primary:active, .main-slider .hero-caption .btn-group .woocommerce a.primary:active, .woocommerce a.primary.button:active, .woocommerce div.product form.cart a.primary.button:active, .woocommerce .tyche-product-slider-container .tyche-banner a.primary:active, .tyche-product-slider-container .tyche-banner .woocommerce a.primary:active, .woocommerce .tyche-blog-post a.primary.more-link:focus, .tyche-blog-post .woocommerce a.primary.more-link:focus, .woocommerce .main-slider .hero-caption .btn-group a.primary:focus, .main-slider .hero-caption .btn-group .woocommerce a.primary:focus, .woocommerce a.primary.button:focus, .woocommerce div.product form.cart a.primary.button:focus, .woocommerce .tyche-product-slider-container .tyche-banner a.primary:focus, .tyche-product-slider-container .tyche-banner .woocommerce a.primary:focus {
       border-color: #1b60a7;
       background: #1b60a7;
-      color: #FFF; }
+      color: #f3ec19; }
 
 .woocommerce .widget_shopping_cart .total, .woocommerce .widget_shopping_cart .total {
   border-top: 1px solid #e1e1e1;
@@ -3767,9 +3767,9 @@ a {
 .woocommerce input.wc-forward[type="button"],
 .woocommerce input.wc-forward[type="reset"],
 .woocommerce input.wc-forward[type="submit"], .woocommerce .tyche-blog-post .wc-forward.more-link, .tyche-blog-post .woocommerce .wc-forward.more-link, .woocommerce .main-slider .hero-caption .btn-group a.wc-forward, .main-slider .hero-caption .btn-group .woocommerce a.wc-forward, .woocommerce div.product form.cart .wc-forward.button, .woocommerce .tyche-product-slider-container .tyche-banner a.wc-forward, .tyche-product-slider-container .tyche-banner .woocommerce a.wc-forward {
-  background: #2279d3;
-  border-color: #2279d3;
-  color: #FFF; }
+  background: #9d1f60;
+  border-color: #9d1f60;
+  color: #f3ec19; }
   .woocommerce .wc-forward.button:hover,
   .woocommerce button.wc-forward:hover:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
   .woocommerce input.wc-forward:hover[type="button"],
@@ -3785,16 +3785,16 @@ a {
   .woocommerce input.wc-forward:focus[type="submit"], .woocommerce .tyche-blog-post .wc-forward.more-link:focus, .tyche-blog-post .woocommerce .wc-forward.more-link:focus, .woocommerce .main-slider .hero-caption .btn-group a.wc-forward:focus, .main-slider .hero-caption .btn-group .woocommerce a.wc-forward:focus, .woocommerce div.product form.cart .wc-forward.button:focus, .woocommerce .tyche-product-slider-container .tyche-banner a.wc-forward:focus, .tyche-product-slider-container .tyche-banner .woocommerce a.wc-forward:focus {
     background: #1b60a7;
     border-color: #1b60a7;
-    color: #FFF; }
+    color: #f3ec19; }
 
 .woocommerce .checkout.button,
 .woocommerce button.checkout:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
 .woocommerce input.checkout[type="button"],
 .woocommerce input.checkout[type="reset"],
 .woocommerce input.checkout[type="submit"], .woocommerce .tyche-blog-post .checkout.more-link, .tyche-blog-post .woocommerce .checkout.more-link, .woocommerce .main-slider .hero-caption .btn-group a.checkout, .main-slider .hero-caption .btn-group .woocommerce a.checkout, .woocommerce div.product form.cart .checkout.button, .woocommerce .tyche-product-slider-container .tyche-banner a.checkout, .tyche-product-slider-container .tyche-banner .woocommerce a.checkout {
-  background: #2279d3;
-  color: #FFF;
-  border-color: #2279d3; }
+  background: #9d1f60;
+  color: #f3ec19;
+  border-color: #9d1f60; }
   .woocommerce .checkout.button:hover,
   .woocommerce button.checkout:hover:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
   .woocommerce input.checkout:hover[type="button"],
@@ -3810,7 +3810,7 @@ a {
   .woocommerce input.checkout:focus[type="submit"], .woocommerce .tyche-blog-post .checkout.more-link:focus, .tyche-blog-post .woocommerce .checkout.more-link:focus, .woocommerce .main-slider .hero-caption .btn-group a.checkout:focus, .main-slider .hero-caption .btn-group .woocommerce a.checkout:focus, .woocommerce div.product form.cart .checkout.button:focus, .woocommerce .tyche-product-slider-container .tyche-banner a.checkout:focus, .tyche-product-slider-container .tyche-banner .woocommerce a.checkout:focus {
     border-color: #1b60a7;
     background: #1b60a7;
-    color: #FFF; }
+    color: #f3ec19; }
 
 .woocommerce .page-title {
   margin-top: 0;
@@ -3828,8 +3828,8 @@ a {
   .woocommerce form.checkout_coupon input[type="button"],
   .woocommerce form.checkout_coupon input[type="reset"],
   .woocommerce form.checkout_coupon input[type="submit"], .woocommerce form.checkout_coupon .tyche-blog-post .more-link, .tyche-blog-post .woocommerce form.checkout_coupon .more-link, .woocommerce form.checkout_coupon .main-slider .hero-caption .btn-group a, .main-slider .hero-caption .btn-group .woocommerce form.checkout_coupon a, .woocommerce form.checkout_coupon div.product form.cart .button, .woocommerce div.product form.cart form.checkout_coupon .button, .woocommerce form.checkout_coupon .tyche-product-slider-container .tyche-banner a, .tyche-product-slider-container .tyche-banner .woocommerce form.checkout_coupon a {
-    background: #2279d3;
-    color: #FFF;
+    background: #9d1f60;
+    color: #f3ec19;
     padding: 7px 30px; }
     .woocommerce form.checkout_coupon .button:hover,
     .woocommerce form.checkout_coupon button:hover:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
@@ -3865,8 +3865,8 @@ a {
   .woocommerce div.product form.cart form.register .button,
   .woocommerce form.register .tyche-product-slider-container .tyche-banner a,
   .tyche-product-slider-container .tyche-banner .woocommerce form.register a {
-    background: #2279d3;
-    color: #FFF;
+    background: #9d1f60;
+    color: #f3ec19;
     padding: 10px 30px;
     display: block;
     margin-top: 20px; }
@@ -3917,7 +3917,7 @@ a {
     position: relative;
     top: 4px;
     font-size: 15px;
-    color: #cecece;
+    color: #9d1f60;
     font-style: italic;
     text-decoration: underline;
     margin-right: 15px; }
@@ -3940,14 +3940,14 @@ a {
   margin: 10px 0; }
 
 .woocommerce .woocommerce-MyAccount-content .woocommerce-Button {
-  background: #2279d3;
-  color: #fff; }
+  background: #9d1f60;
+  color: #f3ec19; }
   .woocommerce .woocommerce-MyAccount-content .woocommerce-Button:hover, .woocommerce .woocommerce-MyAccount-content .woocommerce-Button:focus {
     background: #1b60a7;
-    color: #fff; }
+    color: #f3ec19; }
 
 .woocommerce .woocommerce-result-count {
-  color: #2279d3;
+  color: #9d1f60;
   margin-bottom: 30px;
   margin-top: 5px;
   text-align: right;
@@ -3981,7 +3981,7 @@ a {
   min-height: 40px;
   min-width: 165px;
   padding: 0;
-  background: #2279d3;
+  background: #9d1f60;
   line-height: 38px;
   font-weight: 400;
   position: absolute;
@@ -3990,7 +3990,7 @@ a {
   left: -38px;
   margin: 0;
   border-radius: 0;
-  color: #fff;
+  color: #f3ec19;
   font-size: 20px;
   -webkit-font-smoothing: antialiased;
   -khtml-transform: rotate(-45deg);
@@ -4000,7 +4000,7 @@ a {
   margin: 0;
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #a7a7a7;
+  color: #9d1f60;
   font-size: 13px;
   line-height: 10px; }
   .woocommerce .woocommerce-breadcrumb a:hover, .woocommerce .woocommerce-breadcrumb a:focus, .woocommerce .woocommerce-breadcrumb a:active {
@@ -4011,7 +4011,7 @@ a {
   margin-bottom: 15px;
   font-size: 13px; }
   .woocommerce ul.products .star-rating span:before {
-    color: #ffab1a; }
+    color: #f3ec19; }
 
 .woocommerce ul.products li.product {
   text-align: center; }
@@ -4021,8 +4021,8 @@ a {
   .woocommerce ul.products li.product input[type="reset"],
   .woocommerce ul.products li.product input[type="submit"], .woocommerce ul.products li.product .tyche-blog-post .more-link, .tyche-blog-post .woocommerce ul.products li.product .more-link, .woocommerce ul.products li.product .main-slider .hero-caption .btn-group a, .main-slider .hero-caption .btn-group .woocommerce ul.products li.product a, .woocommerce ul.products li.product .tyche-product-slider-container .tyche-banner a, .tyche-product-slider-container .tyche-banner .woocommerce ul.products li.product a {
     margin-top: 10px;
-    background-color: #2279d3;
-    color: #FFF;
+    background-color: #9d1f60;
+    color: #f3ec19;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 15px;
@@ -4037,7 +4037,7 @@ a {
     .woocommerce ul.products li.product input:focus[type="reset"],
     .woocommerce ul.products li.product input:focus[type="submit"], .woocommerce ul.products li.product .tyche-blog-post .more-link:focus, .tyche-blog-post .woocommerce ul.products li.product .more-link:focus, .woocommerce ul.products li.product .main-slider .hero-caption .btn-group a:focus, .main-slider .hero-caption .btn-group .woocommerce ul.products li.product a:focus, .woocommerce ul.products li.product .tyche-product-slider-container .tyche-banner a:focus, .tyche-product-slider-container .tyche-banner .woocommerce ul.products li.product a:focus {
       background-color: #1b60a7;
-      color: #FFF; }
+      color: #f3ec19; }
   .woocommerce ul.products li.product .woocommerce-loop-product__title {
     font-size: 19px;
     line-height: 19px;
@@ -4045,21 +4045,21 @@ a {
   .woocommerce ul.products li.product h3 {
     font-size: 18px; }
   .woocommerce ul.products li.product a:hover h2, .woocommerce ul.products li.product a:focus h2 {
-    color: #2279d3; }
+    color: #9d1f60; }
   .woocommerce ul.products li.product a > img.wp-post-image {
     margin-bottom: 0; }
   .woocommerce ul.products li.product .price {
-    color: #2a313e;
+    color: #9d1f60;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 0; }
     .woocommerce ul.products li.product .price del {
       display: inline-block;
       margin-right: 10px;
-      color: #2a313e; }
+      color: #9d1f60; }
     .woocommerce ul.products li.product .price ins {
       display: inline-block;
-      color: #2279d3; }
+      color: #9d1f60; }
 
 .woocommerce .woocommerce-products-header__title.page-title {
   display: inline-block;
@@ -4103,7 +4103,7 @@ a {
 .woocommerce div.product span.price {
   font-weight: 700;
   font-size: 25px;
-  color: #2a313e; }
+  color: #9d1f60; }
 
 .woocommerce .woocommerce-Price-currencySymbol {
   font-size: 12px;
@@ -4121,8 +4121,8 @@ a {
   clear: both;
   display: inline-block;
   margin-top: 60px;
-  background: #2279d3;
-  color: #FFF;
+  background: #9d1f60;
+  color: #f3ec19;
   padding: 15px; }
   
   .woocommerce div.product form.cart button:hover:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
@@ -4139,7 +4139,7 @@ a {
   .woocommerce div.product form.cart input:focus[type="submit"], .woocommerce div.product form.cart .tyche-blog-post .more-link:focus, .tyche-blog-post .woocommerce div.product form.cart .more-link:focus, .woocommerce div.product form.cart .main-slider .hero-caption .btn-group a:focus, .main-slider .hero-caption .btn-group .woocommerce div.product form.cart a:focus, .woocommerce div.product form.cart .button:focus, .woocommerce div.product form.cart .tyche-product-slider-container .tyche-banner a:focus, .tyche-product-slider-container .tyche-banner .woocommerce div.product form.cart a:focus {
     border-color: #1b60a7;
     background: #1b60a7;
-    color: #FFF; }
+    color: #f3ec19; }
 
 .woocommerce #reviews #comments ol.commentlist {
   padding-left: 0; }
@@ -4162,15 +4162,15 @@ a {
       .woocommerce div.product .woocommerce-tabs ul.tabs li:after, .woocommerce div.product .woocommerce-tabs ul.tabs li:before {
         display: none; }
       .woocommerce div.product .woocommerce-tabs ul.tabs li.active {
-        border-bottom-color: #FFF;
+        border-bottom-color: #f3ec19;
         border-right: 1px solid #e1e1e1;
         border-left: 1px solid #e1e1e1; }
         .woocommerce div.product .woocommerce-tabs ul.tabs li.active:first-of-type {
           border-left: none; }
         .woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
-          color: #717171; }
+          color: #9d1f60; }
       .woocommerce div.product .woocommerce-tabs ul.tabs li a {
-        color: #8b8b8b;
+        color: #9d1f60;
         font-size: 20px;
         font-weight: 400;
         outline: none;
@@ -4190,7 +4190,7 @@ a {
 .woocommerce table.shop_table {
   border-collapse: collapse; }
   .woocommerce table.shop_table thead {
-    background: #2a313e; }
+    background: #9d1f60; }
   .woocommerce table.shop_table td {
     padding: 12px;
     text-align: center; }
@@ -4200,23 +4200,23 @@ a {
   .woocommerce table.shop_table .product-remove,
   .woocommerce table.shop_table .product-thumbnail,
   .woocommerce table.shop_table .product-price {
-    color: #e5e5e5;
+    color: #9d1f60;
     font-size: 15px;
     font-weight: 700; }
   .woocommerce table.shop_table th.product-price, .woocommerce table.shop_table th.product-quantity, .woocommerce table.shop_table th.product-name, .woocommerce table.shop_table th.product-thumbnail, .woocommerce table.shop_table th.product-subtotal, .woocommerce table.shop_table th.product-total {
-    color: #e5e5e5; }
+    color: #f3ec19; }
   .woocommerce table.shop_table th .nobr {
-    color: #e5e5e5; }
+    color: #f3ec19; }
   .woocommerce table.shop_table .product-thumbnail {
     text-align: center; }
     .woocommerce table.shop_table .product-thumbnail img {
       width: 65px; }
   .woocommerce table.shop_table .product-name, .woocommerce table.shop_table .product-price, .woocommerce table.shop_table .product-subtotal {
-    color: #717171; }
+    color: #9d1f60; }
     .woocommerce table.shop_table .product-name a, .woocommerce table.shop_table .product-price a, .woocommerce table.shop_table .product-subtotal a {
-      color: #717171; }
+      color: #9d1f60; }
       .woocommerce table.shop_table .product-name a:hover, .woocommerce table.shop_table .product-name a:focus, .woocommerce table.shop_table .product-price a:hover, .woocommerce table.shop_table .product-price a:focus, .woocommerce table.shop_table .product-subtotal a:hover, .woocommerce table.shop_table .product-subtotal a:focus {
-        color: #2279d3; }
+        color: #9d1f60; }
   .woocommerce table.shop_table .product-remove a.remove {
     width: 25px;
     height: 25px;
@@ -4224,8 +4224,8 @@ a {
     text-align: center;
     font-weight: 400;
     margin: 0 auto;
-    background: #2279d3;
-    color: #FFF !important; }
+    background: #9d1f60;
+    color: #f3ec19 !important; }
     .woocommerce table.shop_table .product-remove a.remove:hover, .woocommerce table.shop_table .product-remove a.remove:focus {
       background: #1b60a7; }
   .woocommerce table.shop_table .quantity .input-text.qty.text {
@@ -4241,9 +4241,9 @@ a {
   .woocommerce table.shop_table .coupon input[type="button"],
   .woocommerce table.shop_table .coupon input[type="reset"],
   .woocommerce table.shop_table .coupon input[type="submit"], .woocommerce table.shop_table .coupon .tyche-blog-post .more-link, .tyche-blog-post .woocommerce table.shop_table .coupon .more-link, .woocommerce table.shop_table .coupon .main-slider .hero-caption .btn-group a, .main-slider .hero-caption .btn-group .woocommerce table.shop_table .coupon a, .woocommerce table.shop_table .coupon div.product form.cart .button, .woocommerce div.product form.cart table.shop_table .coupon .button, .woocommerce table.shop_table .coupon .tyche-product-slider-container .tyche-banner a, .tyche-product-slider-container .tyche-banner .woocommerce table.shop_table .coupon a {
-    background: #2279d3;
+    background: #9d1f60;
     padding: 9px 25px;
-    color: #FFF;
+    color: #f3ec19;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 400; }
@@ -4277,8 +4277,8 @@ a {
 .woocommerce .cart_totals table.shop_table {
   background: transparent; }
   .woocommerce .cart_totals table.shop_table .cart-subtotal > th, .woocommerce .cart_totals table.shop_table .order-total > th {
-    background: #2a313e;
-    color: #FFF;
+    background: #9d1f60;
+    color: #f3ec19;
     text-align: center;
     line-height: 31px;
     font-size: 15px;
@@ -4287,13 +4287,13 @@ a {
     line-height: 17px;
     text-align: center;
     font-weight: 700;
-    color: #2a313e;
+    color: #9d1f60;
     font-size: 15px; }
   .woocommerce .cart_totals table.shop_table .order-total > td {
-    color: #2279d3; }
+    color: #9d1f60; }
 
 .woocommerce .wc-proceed-to-checkout a.checkout-button {
-  background-color: #2279d3; }
+  background-color: #9d1f60; }
   .woocommerce .wc-proceed-to-checkout a.checkout-button:hover, .woocommerce .wc-proceed-to-checkout a.checkout-button:focus {
     background-color: #1b60a7; }
 
@@ -4305,8 +4305,8 @@ a {
   font-size: 15px;
   line-height: 21px; }
   .woocommerce .woocommerce-info:before {
-    background: #2a313e;
-    color: #FFF;
+    background: #9d1f60;
+    color: #f3ec19;
     width: 32px;
     height: 32px;
     line-height: 32px;
@@ -4321,7 +4321,7 @@ a {
     content: '\F295'; }
   .woocommerce .woocommerce-info .showlogin, .woocommerce .woocommerce-info .showcoupon {
     display: block;
-    color: #2279d3; }
+    color: #9d1f60; }
 
 .woocommerce .woocommerce-checkout {
   clear: both; }
@@ -4339,35 +4339,35 @@ a {
 .woocommerce #order_review table {
   text-align: center; }
   .woocommerce #order_review table tfoot td {
-    background-color: #FFF; }
+    background-color: #f3ec19; }
   .woocommerce #order_review table .cart_item .product-name {
     font-weight: 400;
     border-right: 1px solid rgba(0, 0, 0, 0.1); }
   .woocommerce #order_review table .cart_item .product-quantity {
     font-weight: 700;
-    color: #2a313e; }
+    color: #9d1f60; }
   .woocommerce #order_review table .cart_item .product-total {
     font-size: 15px;
     font-weight: 700;
-    color: #2a313e; }
+    color: #9d1f60; }
   .woocommerce #order_review table .cart-subtotal td {
     font-size: 15px;
     font-weight: 700;
-    color: #2a313e; }
+    color: #9d1f60; }
   .woocommerce #order_review table .cart-subtotal th {
     border-bottom: 1px solid #FFF; }
   .woocommerce #order_review table .order-total td {
     font-size: 15px;
     font-weight: 700;
-    color: #2279d3; }
+    color: #9d1f60; }
   .woocommerce #order_review table .cart-subtotal th, .woocommerce #order_review table .order-total th {
-    color: #FFF;
+    color: #f3ec19;
     font-size: 15px; }
 
 .woocommerce #order_review table.shop_table th.product-name,
 .woocommerce #order_review table.shop_table th.product-total {
   background-color: #ebebeb;
-  color: #2a313e;
+  color: #9d1f60;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-left: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -4382,16 +4382,16 @@ a {
   background: rgba(0, 0, 0, 0.1);
   padding-bottom: 10px; }
   .woocommerce-checkout #payment div.payment_box {
-    background-color: #FFF !important; }
+    background-color: #f3ec19 !important; }
     .woocommerce-checkout #payment div.payment_box:before {
-      border-bottom-color: #FFF; }
+      border-bottom-color: #f3ec19; }
   .woocommerce-checkout #payment ul.payment_methods {
     border-bottom: none; }
 
 .woocommerce-checkout #place_order {
-  background: #2279d3;
+  background: #9d1f60;
   padding: 15px 25px;
-  color: #FFF;
+  color: #f3ec19;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 400;
@@ -4401,11 +4401,11 @@ a {
     background: #1b60a7; }
 
 .added_to_cart.wc-forward {
-  background-color: #2279d3;
+  background-color: #9d1f60;
   font-size: 14px;
   padding: 11px 8px;
   border-radius: 4px;
-  color: #fff;
+  color: #f3ec19;
   display: inline-block; }
   .added_to_cart.wc-forward:hover, .added_to_cart.wc-forward:focus {
     background-color: #1b60a7; }
@@ -4422,7 +4422,7 @@ a {
       min-height: 40px;
       min-width: 165px;
       padding: 0;
-      background: #2279d3;
+      background: #9d1f60;
       line-height: 38px;
       font-weight: 400;
       position: absolute;
@@ -4431,7 +4431,7 @@ a {
       left: -38px;
       margin: 0;
       border-radius: 0;
-      color: #fff;
+      color: #f3ec19;
       font-size: 20px;
       -webkit-font-smoothing: antialiased;
       -khtml-transform: rotate(-45deg);
@@ -4442,9 +4442,9 @@ a {
     margin-bottom: 5px;
     margin-top: 10px; }
     .tyche-product h3 a {
-      color: #2a313e; }
+      color: #9d1f60; }
       .tyche-product h3 a:hover, .tyche-product h3 a:focus {
-        color: #2279d3; }
+        color: #9d1f60; }
   .tyche-product .button,
   .tyche-product button:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
   .tyche-product input[type="button"],
@@ -4453,7 +4453,7 @@ a {
     margin-top: 10px;
     text-transform: uppercase; }
   .tyche-product .price {
-    color: #2a313e;
+    color: #9d1f60;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 0;
@@ -4461,17 +4461,17 @@ a {
     .tyche-product .price del {
       display: inline-block;
       margin-right: 10px;
-      color: #2a313e; }
+      color: #9d1f60; }
     .tyche-product .price ins {
       background: transparent;
       display: inline-block;
-      color: #2279d3; }
+      color: #9d1f60; }
   .tyche-product.orange .tyche-product-image span.onsale {
-    background: #ffab1a; }
+    background: #f3ec19; }
   .tyche-product.orange .added_to_cart.wc-forward {
-    background: #ffab1a; }
+    background: #f3ec19; }
   .tyche-product.orange .price ins {
-    color: #ffab1a; }
+    color: #f3ec19; }
   .tyche-product.secondary .tyche-product-image span.onsale {
     background: #eaab76; }
   .tyche-product.secondary .added_to_cart.wc-forward {
@@ -4479,23 +4479,23 @@ a {
   .tyche-product.secondary .price ins {
     color: #eaab76; }
   .tyche-product.black .tyche-product-image span.onsale {
-    background: #252525; }
+    background: #9d1f60; }
   .tyche-product.black .added_to_cart.wc-forward {
-    background: #252525; }
+    background: #9d1f60; }
   .tyche-product.black .price ins {
-    color: #252525; }
+    color: #9d1f60; }
   .tyche-product.blue .tyche-product-image span.onsale {
-    background: #263585; }
+    background: #9d1f60; }
   .tyche-product.blue .added_to_cart.wc-forward {
-    background: #263585; }
+    background: #9d1f60; }
   .tyche-product.blue .price ins {
-    color: #263585; }
+    color: #9d1f60; }
   .tyche-product.light_blue .tyche-product-image span.onsale {
-    background: #2279d3; }
+    background: #9d1f60; }
   .tyche-product.light_blue .added_to_cart.wc-forward {
-    background: #2279d3; }
+    background: #9d1f60; }
   .tyche-product.light_blue .price ins {
-    color: #2279d3; }
+    color: #9d1f60; }
   .tyche-product.green .tyche-product-image span.onsale {
     background: #99ca45; }
   .tyche-product.green .added_to_cart.wc-forward {
@@ -4515,14 +4515,14 @@ a {
       width: 30px;
       text-align: center;
       font-size: 15px;
-      color: #2a313e;
+      color: #9d1f60;
       display: inline-block;
       background-color: #f1f1f3;
       line-height: 30px; }
       .tyche-product-slider-container .tyche-product-slider-navigation a:hover, .tyche-product-slider-container .tyche-product-slider-navigation a:focus, .tyche-product-slider-container .tyche-product-slider-navigation a:active {
         outline: none;
-        background-color: #2279d3;
-        color: #fff; }
+        background-color: #9d1f60;
+        color: #f3ec19; }
   .tyche-product-slider-container .tyche-banner {
     min-height: 475px;
     background-size: cover;
@@ -4549,7 +4549,7 @@ a {
       transform: translate(0, -50%); }
     .tyche-product-slider-container .tyche-banner .first_line, .tyche-product-slider-container .tyche-banner .second_line, .tyche-product-slider-container .tyche-banner .third_line {
       display: block;
-      color: #FFF;
+      color: #f3ec19;
       text-transform: uppercase;
       font-size: 16px;
       font-weight: 700; }
@@ -4589,7 +4589,7 @@ a {
   top: 15px; }
 
 .woocommerce ul.cart_list li a, .woocommerce ul.product_list_widget li a {
-  color: #2a313e; }
+  color: #9d1f60; }
 
 .woocommerce .widget_shopping_cart .cart_list li, .woocommerce.widget_shopping_cart .cart_list li {
   padding-bottom: 10px; }
@@ -4598,10 +4598,10 @@ a {
   width: 42px; }
 
 .woocommerce .widget_price_filter .ui-slider .ui-slider-range, .woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
-  background: #2279d3; }
+  background: #9d1f60; }
 
 .woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content {
-  background: #0d2d4f; }
+  background: #9d1f60; }
 
 
 .woocommerce .price_slider_amount button:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
@@ -4609,8 +4609,8 @@ a {
 .woocommerce .price_slider_amount input[type="reset"],
 .woocommerce .price_slider_amount input[type="submit"], .woocommerce .price_slider_amount .tyche-blog-post .more-link, .tyche-blog-post .woocommerce .price_slider_amount .more-link, .woocommerce .price_slider_amount .main-slider .hero-caption .btn-group a, .main-slider .hero-caption .btn-group .woocommerce .price_slider_amount a, .woocommerce .price_slider_amount div.product form.cart .button, .woocommerce div.product form.cart .price_slider_amount .button, .woocommerce .price_slider_amount .tyche-product-slider-container .tyche-banner a, .tyche-product-slider-container .tyche-banner .woocommerce .price_slider_amount a, .woocommerce .price_slider_amount .button {
   display: inline-block;
-  background: #2279d3;
-  color: #FFF;
+  background: #9d1f60;
+  color: #f3ec19;
   font-size: 14px; }
   
   .woocommerce .price_slider_amount button:hover:not(.pswp__button):not(.customize-partial-edit-shortcut-button),
@@ -4627,38 +4627,38 @@ a {
   .woocommerce .price_slider_amount input:focus[type="submit"], .woocommerce .price_slider_amount .tyche-blog-post .more-link:focus, .tyche-blog-post .woocommerce .price_slider_amount .more-link:focus, .woocommerce .price_slider_amount .main-slider .hero-caption .btn-group a:focus, .main-slider .hero-caption .btn-group .woocommerce .price_slider_amount a:focus, .woocommerce .price_slider_amount div.product form.cart .button:focus, .woocommerce div.product form.cart .price_slider_amount .button:focus, .woocommerce .price_slider_amount .tyche-product-slider-container .tyche-banner a:focus, .tyche-product-slider-container .tyche-banner .woocommerce .price_slider_amount a:focus, .woocommerce .price_slider_amount .button:focus {
     border-color: #1b60a7;
     background: #1b60a7;
-    color: #FFF; }
+    color: #f3ec19; }
 
 .woocommerce .price_slider_amount .price_label {
   font-size: 14px;
   font-weight: 700; }
 
 .woocommerce .tagcloud a {
-  color: #2279d3; }
+  color: #9d1f60; }
   .woocommerce .tagcloud a:hover, .woocommerce .tagcloud a:focus, .woocommerce .tagcloud a:visited {
-    color: #fff; }
+    color: #f3ec19; }
 
 .woocommerce .widget_product_categories .product-categories a {
   color: #717171; }
   .woocommerce .widget_product_categories .product-categories a:hover, .woocommerce .widget_product_categories .product-categories a:focus, .woocommerce .widget_product_categories .product-categories a:visited {
-    color: #2279d3; }
+    color: #9d1f60; }
 
 .woocommerce .widget_product_categories select.dropdown_product_cat {
   width: 100%;
   padding: 10px; }
 
 .woocommerce .product_list_widget .star-rating {
-  color: #ffab1a; }
+  color: #f3ec19; }
 
 .woocommerce .product_list_widget ins, .woocommerce .product_list_widget mark {
   background: transparent; }
 
 .woocommerce .widget_rating_filter .wc-layered-nav-rating {
-  color: #ffab1a; }
+  color: #f3ec19; }
   .woocommerce .widget_rating_filter .wc-layered-nav-rating:before {
     display: none !important; }
   .woocommerce .widget_rating_filter .wc-layered-nav-rating .star-rating {
-    color: #ffab1a; }
+    color: #f3ec19; }
   .woocommerce .widget_rating_filter .wc-layered-nav-rating a {
     color: #717171; }
 
@@ -4680,7 +4680,7 @@ a {
   font-size: 15px; }
 
 .ajax_add_to_cart.loading:after {
-  color: #fff;
+  color: #f3ec19;
   font-family: 'FontAwesome';
   content: '\F250';
   margin-left: 5px;
@@ -4694,7 +4694,7 @@ a {
     line-height: 29px; }
   .cart .quantity .incrementor:hover, .cart .quantity .incrementor:focus {
     outline: none;
-    color: #2279d3; }
+    color: #9d1f60; }
 
 .cart .quantity input[type="number"] {
   border: none;
@@ -4739,13 +4739,13 @@ a {
     top: 0;
     position: absolute;
     left: 0;
-    color: #ffab1a; }
+    color: #f3ec19; }
 
 .comment-form-rating {
   padding: 0 15px; }
 
 .woocommerce p.stars a {
-  color: #ffab1a;
+  color: #f3ec19;
   font-size: 17px; }
 
 .woocommerce #respond input#submit, .woocommerce .tyche-blog-post a.more-link, .tyche-blog-post .woocommerce a.more-link, .woocommerce .main-slider .hero-caption .btn-group a, .main-slider .hero-caption .btn-group .woocommerce a, .woocommerce a.button, .woocommerce div.product form.cart a.button, .woocommerce .tyche-product-slider-container .tyche-banner a, .tyche-product-slider-container .tyche-banner .woocommerce a, .woocommerce .price_slider_amount a.button, .woocommerce button.button,
@@ -4754,10 +4754,10 @@ a {
 .woocommerce input[type="reset"],
 .woocommerce input[type="submit"], .woocommerce .tyche-blog-post input.more-link, .tyche-blog-post .woocommerce input.more-link, .woocommerce div.product form.cart input.button, .woocommerce .price_slider_amount input.button {
   border: 2px solid;
-  border-color: #2279d3;
+  border-color: #9d1f60;
   border-radius: 3px;
-  background: #2279d3;
-  color: #FFF;
+  background: #9d1f60;
+  color: #f3ec19;
   font-size: 15px;
   padding: 8px 20px; }
   .woocommerce #respond input#submit:hover, .woocommerce #respond input#submit:active, .woocommerce #respond input#submit:focus, .woocommerce .tyche-blog-post a.more-link:hover, .tyche-blog-post .woocommerce a.more-link:hover, .woocommerce .main-slider .hero-caption .btn-group a:hover, .main-slider .hero-caption .btn-group .woocommerce a:hover, .woocommerce a.button:hover, .woocommerce div.product form.cart a.button:hover, .woocommerce .tyche-product-slider-container .tyche-banner a:hover, .tyche-product-slider-container .tyche-banner .woocommerce a:hover, .woocommerce .tyche-blog-post a.more-link:active, .tyche-blog-post .woocommerce a.more-link:active, .woocommerce .main-slider .hero-caption .btn-group a:active, .main-slider .hero-caption .btn-group .woocommerce a:active, .woocommerce a.button:active, .woocommerce div.product form.cart a.button:active, .woocommerce .tyche-product-slider-container .tyche-banner a:active, .tyche-product-slider-container .tyche-banner .woocommerce a:active, .woocommerce .tyche-blog-post a.more-link:focus, .tyche-blog-post .woocommerce a.more-link:focus, .woocommerce .main-slider .hero-caption .btn-group a:focus, .main-slider .hero-caption .btn-group .woocommerce a:focus, .woocommerce a.button:focus, .woocommerce div.product form.cart a.button:focus, .woocommerce .tyche-product-slider-container .tyche-banner a:focus, .tyche-product-slider-container .tyche-banner .woocommerce a:focus, .woocommerce button.button:hover,
@@ -4775,7 +4775,7 @@ a {
   .woocommerce input:focus[type="submit"], .woocommerce .tyche-blog-post input.more-link:focus, .tyche-blog-post .woocommerce input.more-link:focus, .woocommerce div.product form.cart input.button:focus {
     border-color: #1b60a7;
     background: #1b60a7;
-    color: #fff; }
+    color: #f3ec19; }
 
 .woocommerce #review_form #respond .form-submit input {
   margin-top: 22px;
@@ -4867,3 +4867,14 @@ object {
 
 .gallery-caption {
   display: block; }
+
+
+.wp-block-button wc-block-grid__product-add-to-cart {
+    background-color: #9d1f60;
+    color: #f3ec19;
+  }
+  
+.wp-block-button__link add_to_cart_button ajax_add_to_cart added {
+    background-color: #9d1f60;
+    color: #f3ec19;
+  }
